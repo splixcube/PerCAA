@@ -1,0 +1,89 @@
+.work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  
+
+  .wimages {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  /* to provide a black&white to colour transition */
+  /* .wimage1,
+  .wimage2,
+  .wimage3,
+  .wimage4,
+  .wimage5 {
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+  } */
+  
+  .wimage1:hover {
+    filter: grayscale(0);
+  }
+  
+  .wimage2:hover {
+    filter: grayscale(0);
+    
+  }
+  
+  .wimage3:hover {
+    filter: grayscale(0);
+    
+  }
+  
+  .wimage4:hover {
+    filter: grayscale(0);
+  }
+  
+  .wimage5:hover {
+    filter: grayscale(0);
+  }
+  
+  .wimage1 {
+    width: 33vw;
+    height: 15vw;
+    background: url(/TopCrousalIMages/DSC_2079.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .wimage2 {
+    width: 34vw;
+    height: 15vw;
+    background: url(/TopCrousalIMages/DSC_2109.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .wimage3 {
+    width: 33vw;
+    height: 15vw;
+    background: url(/TopCrousalIMages/PCE.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .wimage4 {
+    width: 50vw;
+    height: 25vw;
+    background: url(/TopCrousalIMages/poornima4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .wimage5 {
+    width: 50vw;
+    height: 25vw;
+    background: url(/TopCrousalIMages/poornima5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .wimages > div.active {
+    filter: grayscale(0%);
+  }

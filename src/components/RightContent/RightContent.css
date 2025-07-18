@@ -1,0 +1,126 @@
+.sectionHeading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-bottom: 1px solid #c1c1c1;
+  padding-bottom: 6px;
+}
+
+.smallSectionHeading {
+  font-size: 1rem;
+  padding-bottom: 6px;
+}
+
+.organizersLogos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.organizersLogos img {
+  width: 30%;
+  transition: 0.3s all ease-in-out;
+}
+
+.organizersLogos img:hover {
+  transform: scale(1.05);
+}
+
+.rightContent table {
+  margin: 20px 0;
+  font-size: 0.7rem;
+  border-collapse: collapse;
+}
+
+.rightContent thead th {
+  background-color: #d1d1d1;
+  font-size: 0.8rem;
+}
+.rightContent td,
+.rightContent th {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+.technicalSponsers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  margin-bottom: 20px;
+  gap: 25px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.technicalSponsers img {
+  width: 90%;
+  transition: 0.2s all ease-in-out;
+}
+
+.technicalSponsers img:hover {
+  transform: scale(1.03);
+}
+
+.right_acm_chapterLogo {
+  width: 60% !important;
+}
+
+.smallLogosTechSponsers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.smallLogosTechSponsers img {
+  width: 32%;
+  overflow: hidden;
+}
+
+.smallLogosTechSponsers img:first-child {
+  width: 25% !important;
+}
+
+
+/* 
+.conferencePapers {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  gap: 20px;
+}
+
+.conferencePapers img {
+  width: 40%;
+  border: 0.5px solid rgb(195, 195, 195);
+} */
+
+.rredheadline {
+  text-align: center;
+  color: red;
+  font-weight: 500;
+}
+
+.cut {
+  text-decoration: line-through;
+  font-weight: 700;
+  color: rgb(157, 155, 155);
+  text-decoration-color: rgb(88, 88, 88);
+  text-decoration-thickness: .2px ;
+}
+
+td b {
+  color: red;
+  font-weight: 700;
+}
+
+.rightContentTable {
+  font-weight: 700
+}

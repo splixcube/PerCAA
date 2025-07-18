@@ -1,0 +1,291 @@
+
+
+.homeheading{
+    font-weight: bold;
+    margin: 10px 0;
+    background-color: rgb(235, 234, 234);
+    padding: 10px;
+    color: rgb(47, 122, 226);
+}
+
+.paracontent p{
+margin: 20px 0;
+text-align: justify;
+letter-spacing: 1px;
+line-height: 23px;
+}
+
+
+.popup_container {
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    border: 1px solid rgb(195, 195, 195);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0; 
+    transition: all 1s ease; 
+    /* border-radius: 5%; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+
+.top_heading_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+    /* justify-content: space-between; */
+    background-color:rgb(22, 75, 150); ;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.top_heading_container_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.perca_top_sub{
+    color: white;
+    font-weight: 300 ;
+}
+.close_icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.show {
+    opacity: 1; 
+    transition: all 1s ease; 
+}
+.reducedOpacity {
+    opacity: 0.4; 
+    pointer-events: none;
+  }
+.popup_content_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+    /* gap: px; */
+    /* margin-top: 40px; */
+    
+}
+.popup_content{
+    width: 80%;
+}
+.popup_content p{
+    text-align: justify;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: black;
+    /* text-align: center; */
+    letter-spacing: .5px;
+    /* word-spacing: 0.5px; */
+    line-height: 22px;
+}
+.percaa_pop{
+    text-align: center !important;
+    width: 100%;
+    font-size: 30px !important;
+    font-weight: bold !important;
+    margin-bottom: 10px;
+    /* color: rgb(47, 122, 226) !important; */
+    color: white;
+     /* margin-bottom: 50px; */
+     /* background-color:rgb(47, 122, 226) ; */
+}
+.popup_content p span{
+    color: red;
+    font-size: 1.1rem !important
+}
+
+.linkContainer_popup a{
+    font-size: 1.2rem;
+    /* color: blue;
+     */
+
+    color: rgb(47, 122, 226);
+     /* border: 2px solid black; */
+     /* background-color: rgb(235, 234, 234); */
+     margin-top: -30px;
+    padding: 6px 4px;
+    font-weight: 600;
+    text-decoration: line;
+    text-underline-offset: 10px;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 30px; */
+    /* margin-top: px; */
+    /* margin-bottom: -20px; */
+    text-decoration: underline;
+    border-radius: 5px;
+    /* width: 100%; */
+    
+}
+.linkContainer_popup a:hover{
+    background-color: rgb(202, 201, 201);
+}
+.linkContainer a{
+    font-size: 1.3rem;
+    color: blue;
+    font-weight: 600;
+    text-decoration: line;
+    text-underline-offset: 10px;
+    display: flex;
+justify-content: center;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+
+@media (max-width:700px) {
+    .paracontent p{
+       font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    }
+    .linkContainer a{
+        font-size: 1rem;
+        color: blue;
+        font-weight: 600;
+        text-decoration: line;
+        text-underline-offset: 10px;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: -20px;
+    }
+    
+}
+@media (max-width:500px) {
+    .paracontent p{
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 17px;
+    }
+    
+}
+@media (max-width:550px) {
+    .paracontent p{
+       font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    }
+    
+.linkContainer a{
+    font-size: .8rem;
+    color: blue;
+    font-weight: 600;
+    text-decoration: line;
+    text-underline-offset: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    /* margin-bottom: -20px; */
+}
+.popup_container {
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border: 1px solid rgb(195, 195, 195);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0; 
+    transition: opacity 1s ease-out; 
+    /* border-radius: 5%; */
+}
+.close_icon{
+    top: -2px;
+    /* bottom: 20px; */
+    right: -1px;
+    position: absolute;
+    padding-top: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.top_heading_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+    /* justify-content: space-between; */
+    background-color:rgb(22, 75, 150); ;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.show {
+    opacity: 1; 
+}
+.reducedOpacity {
+    opacity: 0.4; 
+    pointer-events: none;
+  }
+.popup_content_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 60px; */
+}
+.popup_content{
+    width: 80%;
+}
+.popup_content p{
+    text-align: justify;
+    font-size: .8rem;
+    font-weight: 500;
+    color: black;
+}
+.percaa_pop{
+    text-align: center !important;
+    width: 100%;
+    font-size: 1.3rem !important;
+    color: white;
+    font-weight: bold !important;
+    margin-bottom: 5px;
+    /* margin-bottom: 15px; */
+}
+.linkContainer_popup a{
+    font-size: .8rem;
+    color: blue;
+    font-weight: 600;
+    text-decoration: line;
+    text-underline-offset: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* margin-bottom: -20px; */
+}
+}
+
+@media (max-width:400px) {
+    
+.linkContainer a{
+    font-size: .7rem;
+    color: blue;
+    font-weight: 600;
+    text-decoration: line;
+    text-underline-offset: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+}
