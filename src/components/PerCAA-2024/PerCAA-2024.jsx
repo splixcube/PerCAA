@@ -38,12 +38,12 @@ const PerCAA_2024 = () => {
           <div className="glimpsesSection">
             <h2>Glimpses of PerCAA-2024</h2>
             <div className="glimpsesGallery">
-              <img src="\public\PerCAA2024\Glimpse1.jpg" alt="Glimpse 1" />
-              <img src="\public\PerCAA2024\Glimpse2.jpg" alt="Glimpse 2" />
-              <img src="\public\PerCAA2024\Glimpse3.jpg" alt="Glimpse 3" />
-              <img src="\public\PerCAA2024\Glimpse4.jpg" alt="Glimpse 4" />
-              <img src="\public\PerCAA2024\Glimpse5.jpg" alt="Glimpse 5" />
-              <img src="\public\PerCAA2024\G.jpg" alt="Glimpse 6" />
+              <img src="\PerCAA2024\Glimpse1.jpg" alt="Glimpse 1" />
+              <img src="\PerCAA2024\Glimpse2.jpg" alt="Glimpse 2" />
+              <img src="\PerCAA2024\Glimpse3.jpg" alt="Glimpse 3" />
+              <img src="\PerCAA2024\Glimpse4.jpg" alt="Glimpse 4" />
+              <img src="\PerCAA2024\Glimpse5.jpg" alt="Glimpse 5" />
+              <img src="\PerCAA2024\G.jpg" alt="Glimpse 6" />
             </div>
           </div>
 
