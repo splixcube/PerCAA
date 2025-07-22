@@ -43,14 +43,14 @@ function TopComp() {
           {/* <img src={acm} alt="Poornima College Of Engineering" className='sp_logo' /> 
           <img className='IET_LOGO' src={IET_logo} alt='IET Logo'  />
           <img className='spocus_LOGO' src={spocus_LOGO} alt='spocus_LOGO'  />
-        </div>*/}
+        </div>
       </div>
       <div className="smallmarquee"> <div className="top-logos-marquee">
       <img src={pce} alt="poornima university logo" className='pce_logo' />
       <img src={acm} alt="acm chapter logo" className='acm_logo' />
         <img src={IET_logo} alt='IET Logo' />
         <img className='spocus_LOGO' src={spocus_LOGO} alt='spocus_LOGO'  />
-      </div></div>
+      </div>*/}</div>
     </div>
   );
 }
