@@ -1,5 +1,5 @@
 import './App.css'
-import { Routes, Route} from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Registration from './components/Registration/Registration'
 import Contact from './components/Contact/Contact'
 import Home from './components/HomeContent/Home'
@@ -15,28 +15,34 @@ import TechnicalCommittee from './components/TechnicalCommittee/TechnicalCommitt
 import LocalOrganizingCommittee from './components/LocalOrganizingCommittee/LocalOrganizingCommittee'
 import OrganizingCommittee from './components/OrganizingCommittee/OrganizingCommittee'
 import Publication from './components/Publication/Publication'
+import PerCAA_2023 from './components/PerCAA-2023/PerCAA-2023'
+import PerCAA_2024 from './components/PerCAA-2024/PerCAA-2024'
+
 function App() {
   return (
+    
     <>
-    <TopComp/>
-    <Navbar></Navbar>
+      <Navbar />
+      <TopComp />
+      
+      
       <div>
         <Routes>
-          <Route path='/' element={<Home/>}></Route>
-          <Route path='/contact' element={<Contact />}></Route>
-          <Route path='/registration' element={<Registration/>}></Route>
-          <Route path='/contact' element={<Contact />}></Route>
-          <Route path='/local-attractions' element={<LocalAttractions/>}></Route>
-          <Route path='/venue' element={<Venue></Venue>}></Route>
-          <Route path='/speakers' element={<Speakers/>}></Route>
-          <Route path='/callForPaper' element={<CallForPapers/>}></Route>
-          <Route path='/author-guidelines' element={<AuthorGuidelines/>}></Route>
-          <Route path='/important-dates' element={<ImportantDates/>}></Route>
-          <Route path='/speakers' element={<Speakers/>}></Route>
-          <Route path='/technical-committee' element={<TechnicalCommittee/>}></Route>
-          <Route path='/local-organizing-comittee' element= {<LocalOrganizingCommittee></LocalOrganizingCommittee>}></Route>
-          <Route path='/organizing-committee' element={<OrganizingCommittee/>}></Route>
-          <Route path='/publication' element={<Publication/>}></Route>
+          <Route path='/' element={<Home />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/registration' element={<Registration />} />
+          <Route path='/local-attractions' element={<LocalAttractions />} />
+          <Route path='/venue' element={<Venue />} />
+          <Route path='/speakers' element={<Speakers />} />
+          <Route path='/callForPaper' element={<CallForPapers />} />
+          <Route path='/author-guidelines' element={<AuthorGuidelines />} />
+          <Route path='/important-dates' element={<ImportantDates />} />
+          <Route path='/technical-committee' element={<TechnicalCommittee />} />
+          <Route path='/local-organizing-comittee' element={<LocalOrganizingCommittee />} />
+          <Route path='/organizing-committee' element={<OrganizingCommittee />} />
+          <Route path='/publication' element={<Publication />} />
+          <Route path='/PerCAA-2023' element={<PerCAA_2023 />} />
+          <Route path='/PerCAA-2024' element={<PerCAA_2024 />} />
         </Routes>
       </div>
     </>

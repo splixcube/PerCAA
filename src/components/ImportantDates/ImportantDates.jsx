@@ -4,10 +4,10 @@ import Footer from "../Footer/Footer";
 const ImportantDates = () => {
     const dates = [
         { event: "Start of Call for Papers", date: ['July 24, 2025'] },
-        { event: "Last Date of Paper Submission", date: ['July 30, 2025'] },
-        { event: "Acceptance Notification", date: ['August 07, 2025'] },
-        { event: "Final Paper Submission Deadline", date: ['August 17, 2025'] },
-        { event: "Last Date of Registration", date: ['August 25, 2025'] },
+        { event: "Last Date of Paper Submission", date: ['August 21, 2025'] },
+        { event: "Acceptance Notification", date: ['August 28, 2025'] },
+        { event: "Final Paper Submission Deadline", date: ['September 04, 2025'] },
+        { event: "Last Date of Registration", date: ['September 11, 2025'] },
         { event: "Conference Date", date: ['November 07-08, 2025'] },
         /*{ event: "Camera Ready Paper Submission", date: ['September 30, 2024', 'October 08, 2024'] },
         { event: "Early Bird Registration" , date:['October 10, 2024']},*/
@@ -15,6 +15,22 @@ const ImportantDates = () => {
 
     return (
         <>
+            <div className="important-banner">
+  <div className="important-label">IMPORTANT</div>
+  <div className="marquee-container">
+    <div className="marquee-content">
+      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
+        Paper Submission Link : Please Click Here To Submit Paper • 
+      </a>
+      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
+        Paper Submission Link : Please Click Here To Submit Paper • 
+      </a>
+      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
+        Paper Submission Link : Please Click Here To Submit Paper • 
+      </a>
+    </div>
+  </div>
+</div>
             <div className="papaContainer">
                 <div className="leftContainer ">
                     <div className="dates-heading">

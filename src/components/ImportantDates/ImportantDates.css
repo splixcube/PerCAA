@@ -30,3 +30,70 @@
     justify-content: center;
     align-items: center;
   } */
+
+  .important-banner {
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  background-color: darkblue;
+  color: white;
+  padding: 10px 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.important-label {
+  font-weight: bold;
+  margin-right: 20px;
+  font-size: 16px;
+  background-color: red;
+  padding: 6px 12px;
+  border-radius: 2px;
+  color: white;
+}
+
+.marquee-container {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 25s linear infinite;
+}
+
+.marquee-content a {
+  color: #00ffff;
+  
+  text-decoration: none;
+  margin-right: 200px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.leftContainer {
+  flex: 1;
+  position: sticky;
+  top: 20px; /* stays fixed after 100px scroll */
+  align-self: flex-start;
+  background: white;
+  padding: 10px;
+  height: fit-content;
+}
+
+.rightContainer {
+  flex: 2;
+  overflow-y: auto;
+}

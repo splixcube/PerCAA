@@ -4,6 +4,22 @@ import Footer from "../Footer/Footer"
 const CallForPapers = () => {
     return (
         <div>
+            <div className="important-banner">
+  <div className="important-label">IMPORTANT</div>
+  <div className="marquee-container">
+    <div className="marquee-content">
+      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
+        Paper Submission Link : Please Click Here To Submit Paper • 
+      </a>
+      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
+        Paper Submission Link : Please Click Here To Submit Paper • 
+      </a>
+      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
+        Paper Submission Link : Please Click Here To Submit Paper • 
+      </a>
+    </div>
+  </div>
+</div>
             <div className="papaContainer">
                 <div className="leftContainer">
                     <div className="homeContent">
@@ -318,9 +334,9 @@ const CallForPapers = () => {
                                 For the papers accepted with minor corrections, authors will be required to incorporate all the corrections
                                 and submit the paper by mail to corresponding track email id as;<br /><br />
                                 <strong>Track 1:</strong> Pervasive & Ubiquitous Computing: {' '}
-                                <a href="mailto:percaa2024@poornima.org">percaa2024@poornima.org</a><br /><br />
+                                <a href="mailto:percaa2025@poornima.org">percaa2025@poornima.org</a><br /><br />
                                 <strong>Track 2:</strong> Mobile Communication & Networking: {' '}
-                                <a href="mailto:percaa2024@poornima.org">percaa2024@poornima.org</a><br />
+                                <a href="mailto:percaa2025@poornima.org">percaa2025@poornima.org</a><br />
                             </p>
 
                             <div className="homeheading">ORAL PRESENTATION</div>

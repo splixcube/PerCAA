@@ -1,7 +1,7 @@
 .sectionHeading {
   font-size: 1.5rem;
   font-weight: 600;
-  border-bottom: 1px solid #c1c1c1;
+  border-bottom: 1px solid #848484;
   padding-bottom: 6px;
 }
 
@@ -66,8 +66,53 @@
   transform: scale(1.03);
 }
 
+.Sponsers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  margin-bottom: 15px;
+  gap: 15px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.Sponsers img {
+  width: auto;
+  max-width: 200%;
+  transition: 0.2s all ease-in-out;
+}
+
+.Sponsers img:hover {
+  transform: scale(1.05);
+}
+
+.right_poornima_chapterLogo {
+  width: 90% !important;
+  height: auto;
+}
+
 .right_acm_chapterLogo {
   width: 60% !important;
+}
+
+.smallLogosSponsers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.smallLogosSponsers img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.smallLogosSponsers img:first-child {
+  width: 100% !important;
 }
 
 .smallLogosTechSponsers {

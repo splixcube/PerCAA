@@ -3,20 +3,20 @@ import ACM_Jaipur from '/logos/ACM_Jaipur.png'
 import ACM_merrut from '/logos/ACM_merrut.png'
 import ACAlert from '/logos/ACAlert.png'
 import Poornima_Logo_full from '/img/Poornima_Logo.jpg'
-// import IET_logo from '/logos/IET_logo.jpg'
+import IET_logo from '/logos/IET_logo.jpg'
 import ACM_chapter from '/logos/ACM_chapter.png'
 import Int_CA from '/logos/Int_CA.png'
 import naac from '/logos/naac.png'
-
-// import Poornima_Logo from "/img/Poornima_Logo_logo.jpg"
+import Scopus from '/logos/spocus.png'
+import Poornima_Logo from "/img/Poornima_Logo_logo.jpg"
 const RightContent = () => {
     // { event: "Acceptance Notification", date: '<span className="cut">August 31, 2024</span> September 15, 2024'},
     const dates = [
         { event: "Start of Call for Papers", date: ['July 24, 2025'] },
-        { event: "Last Date of Paper Submission", date: ['July 30, 2025'] },
-        { event: "Acceptance Notification", date: ['August 07, 2025'] },
-        { event: "Final Paper Submission Deadline", date: ['August 17, 2025'] },
-        { event: "Last Date of Registration", date: ['August 25, 2025'] },
+        { event: "Last Date of Paper Submission", date: ['August 21, 2025'] },
+        { event: "Acceptance Notification", date: ['August 28, 2025'] },
+        { event: "Final Paper Submission Deadline", date: ['September 04, 2025'] },
+        { event: "Last Date of Registration", date: ['September 11, 2025'] },
         { event: "Conference Date", date: ['November 07-08, 2025'] },
     ];
 
@@ -70,6 +70,16 @@ const RightContent = () => {
                     </tbody>
                 </table>
 
+                <div className="sectionHeading smallSectionHeading">Sponsored by</div>
+                <div className="Sponsers">
+                    {/* <img src={Poornima_Logo_full} alt="" /> */}
+                    {/* <img src={IET_logo} alt="" /> */}
+                    <img className='right_poornima_chapterLogo' src={Poornima_Logo_full} alt="" />
+                    <div className="smallLogosSponsers">
+                        <img src={IET_logo} alt="" />
+                        <img src={Scopus} alt="" />
+                    </div>
+                </div>
                 <div className="sectionHeading smallSectionHeading">Technically Sponsored by</div>
                 <div className="technicalSponsers">
                     {/* <img src={Poornima_Logo_full} alt="" /> */}

@@ -35,8 +35,10 @@
     text-align: justify;
 }
 hr{
-    /* border-width: 1px; */
-    border: .5px solid black;
+    flex-grow: 1;
+  height: 4px;
+  background: linear-gradient(to right, transparent, #000000, transparent);
+  max-width: 1200px;
 }
 
 @media screen  and (max-width: 1350px) {
@@ -80,4 +82,94 @@ hr{
         width: 290px;
         height: auto;
     }
+}
+
+.important-banner {
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  background-color: darkblue;
+  color: white;
+  padding: 10px 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.important-label {
+  font-weight: bold;
+  margin-right: 20px;
+  font-size: 16px;
+  background-color: red;
+  padding: 6px 12px;
+  border-radius: 2px;
+  color: white;
+}
+
+.marquee-container {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 25s linear infinite;
+}
+
+.marquee-content a {
+  color: #00ffff;
+  
+  text-decoration: none;
+  margin-right: 200px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+.no-link-style {
+  color: inherit;          /* Keeps the text same as parent */
+  text-decoration: none;   /* Removes the underline */
+}
+
+.no-link-style:hover {
+  color: #f28500; /* Optional: a slight hover effect if you like */
+}
+
+
+.mainHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0 10px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.mainHeading h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #003366; /* Deep blue for formality */
+  font-family: "Georgia", serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.titleLine {
+  flex-grow: 1;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #003366, transparent);
+  max-width: 120px;
 }

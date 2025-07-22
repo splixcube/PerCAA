@@ -1,0 +1,178 @@
+/* ==== Layout Container ==== */
+.papaContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0 0rem ;
+  box-sizing: border-box;
+  align-items: flex-start;
+  
+}
+
+/* ==== Left Content ==== */
+.leftContainer {
+  flex: 2;
+  min-width: 300px;
+  line-height: 1.5;
+}
+
+/* ==== Right Sidebar ==== */
+.rightContainer {
+  flex: 1;
+  min-width: 280px;
+  position: sticky;
+  top: 20px;
+}
+
+/* ==== Heading ==== */
+.headingMain {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.subHeading {
+  font-size: 1rem;
+  color: #666;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.details {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 0.5rem;
+  text-align: justify;
+}
+
+/* ==== Glimpses Section ==== */
+.glimpsesSection {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.glimpsesSection h2 {
+  margin-bottom: 1rem;
+}
+
+.glimpsesGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.glimpsesGallery img {
+  width: 300px;
+  height: 200px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+
+
+/* ==== Committee Section ==== */
+.committeeSection {
+  margin: 2rem 0;
+}
+
+.committeeSection h2 {
+  margin-bottom: 0.75rem;
+}
+
+.committeeList {
+  padding-left: 1.5rem;
+  line-height: 1.8;
+}
+
+/* ==== Past Papers Section ==== */
+.pastPapersSection {
+  margin: 2rem 0;
+}
+
+.pastPapersSection h2 {
+  margin-bottom: 0.75rem;
+}
+
+.paperLinks {
+  padding-left: 1.5rem;
+  line-height: 1.8;
+}
+
+.paperLinks a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.paperLinks a:hover {
+  text-decoration: underline;
+}
+
+/* ==== Responsive Design ==== */
+@media screen and (max-width: 768px) {
+  .papaContainer {
+    flex-direction: column;
+  }
+
+  .rightContainer {
+    position: static;
+    margin-top: 2rem;
+  }
+
+  .glimpsesGallery img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+.important-banner {
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  background-color: darkblue;
+  color: white;
+  padding: 10px 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.important-label {
+  font-weight: bold;
+  margin-right: 20px;
+  font-size: 16px;
+  background-color: red;
+  padding: 6px 12px;
+  border-radius: 2px;
+  color: white;
+}
+
+.marquee-container {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 25s linear infinite;
+}
+
+.marquee-content a {
+  color: #00ffff;
+  
+  text-decoration: none;
+  margin-right: 200px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

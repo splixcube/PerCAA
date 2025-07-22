@@ -42,8 +42,17 @@ const NewCrousal = () => {
                     <img className="slide-image" src='/TopCrousalIMages/1st.png' ></img>
                     
                 </div>
+                <div className="carousel-item" ref={el => slidesRef.current[0] = el}>
+                    <img className="slide-image" src='/TopCrousalIMages/new.jpeg' ></img>
+                    
+                </div>
+                
+                <div className="carousel-item" ref={el => slidesRef.current[1] = el}>
+                    <img className="slide-image" src='/TopCrousalIMages/PerccaaBanner.png' ></img>
+                    
+                </div>
             <div className="carousel-item" ref={el => slidesRef.current[2] = el}>
-            <img className="slide-image" src='/TopCrousalIMages/2nd.png' ></img>
+            <img className="slide-image" src='/TopCrousalIMages/2.png' ></img>
                 {/* <div className="slide-image"
                     style={{ backgroundImage: 'url(/TopCrousalIMages/DSC_2109.jpg)' }}>
                 </div> */}
@@ -54,12 +63,7 @@ const NewCrousal = () => {
                     style={{ backgroundImage: 'url(/TopCrousalIMages/PCE.jpg)' }}>
                 </div> */}
             </div>
-            <div className="carousel-item" ref={el => slidesRef.current[1] = el}>
-            <img className="slide-image" src='/TopCrousalIMages/poornima1.jpg' ></img>
-                {/* <div className="slide-image"
-                    style={{ backgroundImage: 'url(/TopCrousalIMages/new1.jpeg)' }}>
-                </div> */}
-            </div>
+            
         </div>
         </div>
     );

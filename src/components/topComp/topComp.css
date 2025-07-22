@@ -1,5 +1,21 @@
+.logo-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pce_logo {
+  height: 60px;
+}
+
+.pce_video {
+  height: 60px;
+  border-radius: 8px;
+}
+
 .topComp{
-    width: 100%;
+    width: 100vw;
     /* padding: 10px; */
     background-color: rgb(255, 255, 255);
     /* height: 18vh; */
@@ -7,7 +23,7 @@
 }
 
 .topmarquee{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 70vw;
 }
 
@@ -26,12 +42,14 @@
 
 .percaa{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 45px;
     letter-spacing: 2px;
+    color:rgb(0, 0, 0);
 }
 
 .top-head{
-    font-size: 20px;
+    margin-top: 15px;
+    font-size: 18px;
     font-weight: 700;
     text-align: center;
     /* width: 50%; */
@@ -40,17 +58,46 @@
     align-items: center;
     justify-content: center;
     gap:.5rem;
+    margin-bottom: 20px;
     /* font-weight: 500; */
 }
 
-.top-logos{
+.PerCAA-logo {
     display: flex;
     flex-direction: column;
-    /* width:12vw; */
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
+
+    position: absolute; /* Stick it to the corner */
+    top: 50px;  /* space from top */
+    left: 0px; /* space from left */
+
+    padding: 10px;       /* space inside */
+    margin: 10px;        /* optional: outer space */
 }
+
+.PerCAA-logo video {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  filter: blur(0.5px) brightness(1.7);
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0.1) 90%);
+  -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0.1) 90%);
+}
+
+
+.top-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* space-between or space-around */
+    align-items: center;
+    width: 100%; /* full width */
+    padding: 0 10rem; /* optional padding on sides */
+    box-sizing: border-box; /* ensures padding doesn't affect width */
+    flex-wrap: wrap; /* allows wrap on smaller screens */
+}
+
 
 
 .smallmarquee{
@@ -103,8 +150,8 @@
 }
 
 .sponsor{
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+    font-size: 1rem;
+    margin-bottom: 0px;
     font-weight: 500;
 }
 @media screen and (max-width : 920px){

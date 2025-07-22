@@ -1,8 +1,10 @@
+/* === Contact Container === */
 .contact {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
 .contactSectionHeading {
   font-weight: bold;
   margin: 10px 0;
@@ -12,41 +14,7 @@
   font-size: 20px;
 }
 
-.contactCard {
-  display: flex;
-  justify-content: left;
-  /* gap: 30px; */
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  padding: 20px 20px;
-  border-radius: 10px;
-}
-
-
-.contactCardDetails p {
-    margin-bottom: 10px;
-}
-
-.contactCardDetails p span {
-  font-size: 1.1rem;
-  font-weight: 600;
-}
-
-
-.contactCardDetails p a {
-    text-decoration: none;
-    margin-right: 20px ;
-}
-
-.break {
-    display: none;
-}
-
-@media only screen and (max-width: 400px) {
-    .break {
-        display: initial;
-    }
-}
-
+/* === Card Wrapper and Layout === */
 .container {
   padding-top: 20px;
   display: flex;
@@ -54,20 +22,22 @@
   gap: 20px;
   justify-content: center;
 }
-.contianer_wrapper{
+.contianer_wrapper {
   width: 100%;
 }
+
+/* === Contact Card === */
 .card-contact {
-  /* background: linear-gradient(145deg, #dde0e7, #6498ac); */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 10px;
   width: calc(33% - 20px);
   transition: transform 0.2s;
   border: 1px solid rgb(182, 192, 196);
-  flex-direction: column;
   display: flex;
-  justify-items: center   ;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .card-contact:hover {
@@ -75,53 +45,122 @@
 }
 
 .card-contact h2 {
-  font-size: 1.0em;
+  font-size: 1em;
   margin-bottom: 10px;
-  text-align: center;
   color: black;
   word-spacing: 2px;
 }
-.heading{
+
+.card-contact p {
+  color: #050505;
+  font-size: 0.75rem;
+  font-weight: 500;
+  word-spacing: 1px;
+}
+
+/* === Responsive Breakpoints === */
+@media (max-width: 1280px) {
+  .card-contact {
+    width: calc(33% - 20px);
+  }
+  .card-contact h2 {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 930px) {
+  .card-contact {
+    width: calc(33% - 20px);
+  }
+}
+@media (max-width: 768px) {
+  .card-contact {
+    width: calc(50% - 20px);
+  }
+}
+@media (max-width: 550px) {
+  .card-contact {
+    width: 100%;
+  }
+}
+
+/* === Logo Styling === */
+.contactLogo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1.5px solid #000000;
+  margin-bottom: 10px;
+}
+
+/* === Section Heading === */
+.heading {
   font-weight: 700;
   background-color: rgb(235, 234, 234);
   padding: 10px;
   color: rgb(47, 122, 226);
   width: 100%;
-  font-size:larger;
+  font-size: larger;
   margin: 10px 0 25px;
 }
-.card-contact p {
-  color: #050505;
-  text-align: center ;
-  font-size: .75rem;
-  font-weight: 500;
-  word-spacing: 1px;
+
+/* === Important Banner + Marquee === */
+.important-banner {
+  display: flex;
+  align-items: center;
+  background-color: darkblue;
+  color: white;
+  padding: 10px 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-@media (max-width: 1280px) {
-  .card-contact h2 {
-      font-size: .8em;
-      margin-bottom: 10px;
-      text-align: center;
+.important-label {
+  font-weight: bold;
+  margin-right: 20px;
+  font-size: 16px;
+  background-color: red;
+  padding: 6px 12px;
+  border-radius: 2px;
+  color: white;
+}
+
+.marquee-container {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 25s linear infinite;
+}
+
+.marquee-content a {
+  color: #00ffff;
+  text-decoration: none;
+  margin-right: 200px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }
-@media (max-width: 1280px) {
-  .card-contact {
-      width: calc(33% - 20px);
-  }
+
+/* === Break Control for Contact Info === */
+.break {
+  display: none;
 }
-@media (max-width: 930px) {
-  .card-contact {
-      width: calc(33% - 20px);
-  }
-}
-@media (max-width: 768px) {
-  .card-contact {
-      width: calc(50% - 20px);
-  }
-}
-@media (max-width: 550px) {
-  .card-contact {
-      width: 100%;
+@media only screen and (max-width: 400px) {
+  .break {
+    display: initial;
   }
 }

@@ -2,7 +2,7 @@
     padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 20px;
     justify-content: center;
 }
 .contianer_wrapper{
@@ -30,7 +30,7 @@
     flex-direction: column;
     font-weight: 800;
     color: black;
-    gap: 2px;
+    gap: 0px;
 }
 .info p{
     color: black;
@@ -43,22 +43,22 @@
 
 .card h2 {
     font-size: 1.2rem;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     text-align: center;
     text-decoration: underline;
-    line-height: 20px;
+    line-height: 0px;
     word-spacing: 3px;
     text-underline-offset: 10px;
     text-decoration-color: #373535;
     font-style: italic;
     color: rgb(8, 7, 7);
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .card img{
     border-radius: 10px;
-    width: 40%;
-    height: 40%;
+    width: 180px;
+    height: 180px;
 }
 .heading{
     font-weight: 700;
@@ -96,4 +96,56 @@
     .card {
         width: 100%;
     }
+}
+
+.important-banner {
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  background-color: darkblue;
+  color: white;
+  padding: 10px 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.important-label {
+  font-weight: bold;
+  margin-right: 20px;
+  font-size: 16px;
+  background-color: red;
+  padding: 6px 12px;
+  border-radius: 2px;
+  color: white;
+}
+
+.marquee-container {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 25s linear infinite;
+}
+
+.marquee-content a {
+  color: #00ffff;
+  
+  text-decoration: none;
+  margin-right: 200px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }

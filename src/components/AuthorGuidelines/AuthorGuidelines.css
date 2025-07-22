@@ -1,6 +1,6 @@
 .author_guideline_heading{
     font-weight: bold;
-    margin: 10px 0;
+    margin: 5px 0;
     background-color: rgb(235, 234, 234);
     padding: 10px;
     color: rgb(47, 122, 226);
@@ -12,7 +12,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .doc_details{
@@ -57,4 +57,64 @@
         text-align: justify;
         line-height: 1.5rem;
     }
+}
+
+.important-banner {
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  background-color: darkblue;
+  color: white;
+  padding: 10px 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.important-label {
+  font-weight: bold;
+  margin-right: 20px;
+  font-size: 16px;
+  background-color: red;
+  padding: 6px 12px;
+  border-radius: 2px;
+  color: white;
+}
+
+.marquee-container {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 25s linear infinite;
+}
+
+.marquee-content a {
+  color: #00ffff;
+  
+  text-decoration: none;
+  margin-right: 200px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+#pdf-preview {
+  width: 100%;
+  height: 100%;
+  margin: 40px auto;         /* Center horizontally + top space */
+  border: solid 1px #000;    /* Optional: border color and size */
+  display: block;            /* Ensure it behaves like a block element */
 }

@@ -6,6 +6,7 @@ import Footer from "../Footer/Footer";
 import NewCrousal from "../NewCrousal/NewCrousal";
 import { IoMdClose } from "react-icons/io";
 import { IconContext } from "react-icons";
+
 function Home() {
   const [showPopUp , setShowPopUp] = useState(false);
   const closebuttonHandler = ()=>{
@@ -22,9 +23,23 @@ function Home() {
       <div className={`${showPopUp ? 'reducedOpacity' : ''}`}>
         <NewCrousal></NewCrousal>
       </div>
-      <div className={`linkContainer ${showPopUp ? 'reducedOpacity' : ''}`}>
-              <a href="https://cmt3.research.microsoft.com/PERCAA2024">Paper Submission Link : Please Click  Here To Submit Paper</a>
-      </div>
+      <div className="important-banner">
+  <div className="important-label">IMPORTANT</div>
+  <div className="marquee-container">
+    <div className="marquee-content">
+      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
+        Paper Submission Link : Please Click Here To Submit Paper • 
+      </a>
+      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
+        Paper Submission Link : Please Click Here To Submit Paper • 
+      </a>
+      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
+        Paper Submission Link : Please Click Here To Submit Paper • 
+      </a>
+    </div>
+  </div>
+</div>
+
       {
         showPopUp && (
           <div className={`popup_container ${showPopUp ? 'show' : ''}`}>
@@ -34,10 +49,10 @@ function Home() {
                     <div className="perca_top_sub">Important Links</div>
                   </div>
                   <div className="close_icon" onClick={closebuttonHandler}>
-                    <IconContext.Provider value={{color:"blue" ,size:"30"}}>
-                      <div className="close_icon">
-                        <IoMdClose></IoMdClose>
-                      </div>
+                    <IconContext.Provider value={{ color: "white", size: "30px" }}>
+                    <div onClick={closebuttonHandler} className="close_icon">
+                    <IoMdClose />
+                    </div>
                     </IconContext.Provider>
                   </div>
               </div>
@@ -76,6 +91,14 @@ function Home() {
               </p>
               <p>
               We have been awarded a prestigious NAAC A+ accreditation and enjoy autonomous status by the UGC. These accolades reflect our commitment to quality education and research. As we embark on these two days of insightful presentations, engaging discussions, and networking opportunities, let us embrace the spirit of innovation and sustainability that drives us all.
+              </p>
+            </div>
+          </div>
+          <div className="homeContent">
+            <div className="homeheading">ABOUT DEPARTMENT OF COMPUTER SCIENCE</div>
+            <div className="paracontent">
+              <p>
+                Computer Engineering combines the academic disciplines of electronics engineering and computer sciences which helps our engineering graduates to combine their understanding of computer hardware and software to innovate the stream. Computer engineering programmes prepare graduates for highly valued, sky-high careers in design, development, research and testing of various hardware and software.The department focuses not only on the theoretical aspects but emphasize the overall development of the students. It conducts various co-curricular activities such as informative workshops and industrial visits to companies. It makes the student industry ready with all practical exposer, expert talks on new technologies, technical events like coding competition, hackathon, etc. We believe, such activities help them to meet the demands of Industry or existing market.
               </p>
             </div>
           </div>
