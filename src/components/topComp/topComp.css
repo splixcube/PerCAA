@@ -14,6 +14,16 @@
   border-radius: 8px;
 }
 
+@media (max-width: 1023px) {
+  .PerCAA-logo {
+    visibility: hidden;
+  }
+
+  .PerCAA-logo video {
+    visibility: hidden;
+  }
+}
+
 .topComp{
     width: 100vw;
     /* padding: 10px; */
@@ -68,12 +78,12 @@
     justify-content: center;
     align-items: center;
 
-    position: absolute; /* Stick it to the corner */
-    top: 50px;  /* space from top */
-    left: 0px; /* space from left */
+    position: absolute; 
+    top: 50px; 
+    left: 0px; 
 
-    padding: 10px;       /* space inside */
-    margin: 10px;        /* optional: outer space */
+    padding: 10px;       
+    margin: 10px;       
 }
 
 .PerCAA-logo video {
@@ -90,12 +100,12 @@
 .top-logos {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; /* space-between or space-around */
+    justify-content: space-between; 
     align-items: center;
-    width: 100%; /* full width */
-    padding: 0 10rem; /* optional padding on sides */
-    box-sizing: border-box; /* ensures padding doesn't affect width */
-    flex-wrap: wrap; /* allows wrap on smaller screens */
+    width: 100%; 
+    padding: 0 10rem; 
+    box-sizing: border-box; 
+    flex-wrap: wrap;
 }
 
 
