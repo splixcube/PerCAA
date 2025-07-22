@@ -58,7 +58,7 @@ function Home() {
               </div>
               <div className="popup_content_container">
                 <div className="popup_content">
-                  <p><span>Note : </span>Submitted Papers will be published by the Institution of Engineering and Technology (IET) on IET Digital Library, indexed by IET Inspec and Standard paper of Conference will be submitted to the following books published under Bentham series.</p>
+                  <p><span>Note : </span>Selected papers will be published in Scopus index journal special issue..</p>
                 </div>
                 <div className="linkContainer_popup">
                     <a href="https://cmt3.research.microsoft.com/PERCAA2024"> Click  Here To Submit Paper</a>
