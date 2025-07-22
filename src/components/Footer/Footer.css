@@ -55,7 +55,7 @@
 }
 
 .social-icons a {
-  margin-right: 50px;
+  margin-right: 30px;
   font-size: 1.6rem;
   color: #ffcc00;
   transition: 0.3s;
@@ -82,7 +82,7 @@
 }
 
 .footer-section.links {
-  text-align: center;
+  text-align: left;
 }
 
 .quick-links-heading {
@@ -98,6 +98,20 @@
   gap: 60px;
   flex-wrap: nowrap;
 }
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .quick-links-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .quick-links-container {
+    flex-direction: column;
+  }
+}
+
 
 .quick-links-container ul {
   list-style: none;
@@ -118,4 +132,10 @@
 
 .quick-links-container ul li a:hover {
   color: #facc15;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

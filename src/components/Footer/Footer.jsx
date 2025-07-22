@@ -105,7 +105,7 @@ const Footer = () => {
       {/* Footer Bottom */}
       <div className="footer-bottom">
         <p>© 2025 Poornima College of Engineering | Designed & Developed by Team PerCAA</p>
-        <p>
+        <p class='bottom'>
           <FaGlobe />{" "}
           <a href="https://percaa.poornima.org" target="_blank" rel="noopener noreferrer">
             percaa.poornima.org
