@@ -58,11 +58,31 @@
 }
 
 .technicalSponsers img {
-  width: 90%;
+  width: 30%;
   transition: 0.2s all ease-in-out;
 }
 
 .technicalSponsers img:hover {
+  transform: scale(1.03);
+}
+.Poornima {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  margin-bottom: -10px;
+  gap: 25px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.Poornima img {
+  width: 30%;
+  transition: 0.2s all ease-in-out;
+}
+
+.Poornima img:hover {
   transform: scale(1.03);
 }
 
@@ -89,7 +109,7 @@
 }
 
 .right_poornima_chapterLogo {
-  width: 90% !important;
+  width: 40% !important;
   height: auto;
 }
 

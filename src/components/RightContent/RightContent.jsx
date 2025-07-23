@@ -8,7 +8,8 @@ import ACM_chapter from '/logos/ACM_chapter.png'
 import Int_CA from '/logos/Int_CA.png'
 import naac from '/logos/naac.png'
 import Scopus from '/logos/spocus.png'
-import Poornima_Logo from "/img/Poornima_Logo_logo.jpg"
+import Poornima_Logo from "/img/Poornima_Logo_logo-removebg.png"
+import Poornima from "/img/Poornima-removebg.png"
 const RightContent = () => {
     // { event: "Acceptance Notification", date: '<span className="cut">August 31, 2024</span> September 15, 2024'},
     const dates = [
@@ -36,7 +37,10 @@ const RightContent = () => {
                     {/* <img src={Poornima_Logo} alt="" /> */}
                     {/* <img src={Mnit_logo} alt="" /> */}
                     {/* <img src={ACM_Jaipur} alt="" /> */}
-                    <img src={Poornima_Logo_full} alt="" />
+                    <div class="Poornima">
+                    <img src={Poornima_Logo} alt="" />
+                    <img src={Poornima} alt="" />
+                    </div>
                     <div className="smallLogosTechSponsers">
                         <img src={ACM_Jaipur} alt="" />
                         <img src={naac} alt="" />
@@ -74,7 +78,7 @@ const RightContent = () => {
                 <div className="Sponsers">
                     {/* <img src={Poornima_Logo_full} alt="" /> */}
                     {/* <img src={IET_logo} alt="" /> */}
-                    <img className='right_poornima_chapterLogo' src={Poornima_Logo_full} alt="" />
+                    <img className='right_poornima_chapterLogo' src={Poornima_Logo} alt="" />
                     <div className="smallLogosSponsers">
                         <img src={IET_logo} alt="" />
                         <img src={Scopus} alt="" />
