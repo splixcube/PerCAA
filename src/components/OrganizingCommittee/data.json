@@ -39,10 +39,10 @@
         "institution": "PCE",
         "location": "Jaipur, Rajasthan",
         "title":"Associate Professor",
-        "img":"/oc/Abhishek Sharma.jpg"
+        "img":"/oc/Abhishek_Sharma.jpg"
       },
       {
-        "name": "Ms. Sonam Gaur",
+        "name": "Ms. Sonam Gour",
         "institution": "PCE",
         "location": "Jaipur",
         "title":"Assistant Professor",
@@ -56,7 +56,7 @@
         "name": "Mr. Manish Dubey",
         "institution": "PCE",
         "location": "Jaipur",
-        "title":"Assistant Professor",
+        "title":"Deputy Head & Assistant Professor",
         "img":"/oc/Manish Dubey.jpeg"
       },
       {
@@ -102,14 +102,14 @@
         "name": "Ms. Upma Kumari",
         "institution": "PCE",
         "location": "Jaipur",
-        "title": "Professor",
+        "title": "Assistant Professor",
         "img":"/oc/Upma Kumari.jpg"
       },
       {
         "name": "Mr. Amit Kumar",
         "institution": "PCE",
         "location": "Jaipur",
-        "title": "Professor",
+        "title": "Assistant Professor",
         "img":"/oc/Amit Kumar.jpeg"
       }
     ],
@@ -118,14 +118,14 @@
         "name": "Mr. Sachin Jain",
         "institution": "PCE",
         "location": "Jaipur",
-        "title": "Professor",
+        "title": "Assistant Professor",
         "img":"/oc/Sachin Jain.jpeg"
       },
       {
         "name": "Mr. Rohit Singh Rajput",
         "institution": "PCE",
         "location": "Jaipur",
-        "title": "Professor",
+        "title": "Assistant Professor",
         "img":"/oc/Rohit Rajput.jpeg"
       }
         
@@ -133,17 +133,17 @@
     "WebTeamStudents":[
       {
         "name": "Nayan Mathur",
-        "details": "Student Coordinator,  2nd Year, Computer Science, PCE , Jaipur",
+        "details": "Student Coordinator,  2nd Year, Computer Science & Engineering , PCE , Jaipur",
         "img":"/oc/Nayan Mathur.jpeg"
       },
       {
         "name": "Prakhar Mathur",
-        "details": "Student Coordinator,  2nd Year, Computer Science, PCE , Jaipur",
+        "details": "Student Coordinator,  2nd Year, Computer Science & Engineering, PCE , Jaipur",
         "img":"/oc/Prakhar Mathur.jpeg"
       },
       {
         "name": "Nisha Leharwani",
-        "details": "Student Coordinator,  2nd Year, Computer Science, PCE , Jaipur",
+        "details": "Student Coordinator,  2nd Year, Computer Science & Engineering, PCE , Jaipur",
         "img":"/oc/Nisha Leharwani.jpeg"
       }
       

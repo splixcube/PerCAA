@@ -36,7 +36,7 @@ const Contact = () => {
                                 <p style={{fontWeight:"bold" , fontSize:".8rem" , marginTop:"10px"}}>Email : percaa2025@poornima.org</p>
                             </div>
                             <div className="card-contact">
-                                <img src="\oc\Abhishek Sharma.jpg" alt="PerCAA Logo" className='contactLogo' />
+                                <img src="\oc\Abhishek_Sharma.jpg" alt="PerCAA Logo" className='contactLogo' />
                                 <h2>Dr. Abhishek Sharma</h2>
                                 <p style={{fontWeight:"bold" , fontSize:".8rem"}}>Convenor</p>
                                 <p style={{fontWeight:"bold" , fontSize:".8rem" , marginTop:"10px"}}>Contact : +91 9897257571</p>
@@ -44,7 +44,7 @@ const Contact = () => {
                             </div>
                             <div className="card-contact">
                                 <img src="\oc\Sonam Gour.jpeg" alt="PerCAA Logo" className='contactLogo' />
-                                <h2>Ms. Sonam Gaur</h2>
+                                <h2>Ms. Sonam Gour</h2>
                                 <p style={{fontWeight:"bold" , fontSize:".8rem"}}>Convenor</p>
                                 <p style={{fontWeight:"bold" , fontSize:".8rem" , marginTop:"10px"}}>Contact : +91 9509885411</p>
                                 <p style={{fontWeight:"bold" , fontSize:".8rem" , marginTop:"10px"}}>Email : percaa2025@poornima.org</p>
