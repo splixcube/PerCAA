@@ -46,7 +46,7 @@ const Navbar = () => {
             <a to="#">Archive</a>
             <ul>
               <li><Link onClick={handleToggle} to={'/PerCAA-2024'}>PerCAA-2024</Link></li>
-              <li><Link onClick={handleToggle} to={'/PerCAA-2023'}>PerCAA-2023</Link></li>
+              <li><Link onClick={handleToggle} to={'/PerCAA-2020'}>PerCAA-2020</Link></li>
             </ul>
           </li>
           <li>

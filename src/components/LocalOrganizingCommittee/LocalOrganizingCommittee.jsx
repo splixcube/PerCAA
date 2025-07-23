@@ -3,25 +3,11 @@ import Footer from "../Footer/Footer"
 import data from "./data.json"
 import styles from "./LocalOrganizingCommittee.module.css"
 import student from "./students.json"
+import ImportantBanner from "../ImportantLink/ImportantLink";
 const LocalOrganizingCommittee = ()=>{
     return(
         <>
-            <div className="important-banner">
-  <div className="important-label">IMPORTANT</div>
-  <div className="marquee-container">
-    <div className="marquee-content">
-      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
-        Paper Submission Link : Please Click Here To Submit Paper • 
-      </a>
-      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
-        Paper Submission Link : Please Click Here To Submit Paper • 
-      </a>
-      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
-        Paper Submission Link : Please Click Here To Submit Paper • 
-      </a>
-    </div>
-  </div>
-</div>
+            <ImportantBanner/>
             <div className="papaContainer">
                 <div className="leftContainer">
                     <div className={styles.mainHeading}>

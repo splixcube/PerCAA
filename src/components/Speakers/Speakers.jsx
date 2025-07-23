@@ -2,25 +2,11 @@ import RightContent from "../RightContent/RightContent"
 import styles from "./Speakers.module.css"
 import data from "./data.json"
 import Footer from "../Footer/Footer"
+import ImportantBanner from "../ImportantLink/ImportantLink";
 const Speakers = ()=>{
     return(
         <>
-            <div className="important-banner">
-  <div className="important-label">IMPORTANT</div>
-  <div className="marquee-container">
-    <div className="marquee-content">
-      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
-        Paper Submission Link : Please Click Here To Submit Paper • 
-      </a>
-      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
-        Paper Submission Link : Please Click Here To Submit Paper • 
-      </a>
-      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
-        Paper Submission Link : Please Click Here To Submit Paper • 
-      </a>
-    </div>
-  </div>
-</div>
+            <ImportantBanner/>
             <div className="papaContainer">
                 <div className="leftContainer">
                 <div className={styles.heading}>

@@ -2,6 +2,7 @@
 import RightContent from "../RightContent/RightContent";
 import styles from "./Registration.module.css"
 import Footer from "../Footer/Footer";
+import ImportantBanner from "../ImportantLink/ImportantLink";
 const Registration = () => {
 
     const tableData = {
@@ -27,22 +28,8 @@ const Registration = () => {
 
     return (
         <>
-            <div className="important-banner">
-  <div className="important-label">IMPORTANT</div>
-  <div className="marquee-container">
-    <div className="marquee-content">
-      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
-        Paper Submission Link : Please Click Here To Submit Paper • 
-      </a>
-      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
-        Paper Submission Link : Please Click Here To Submit Paper • 
-      </a>
-      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
-        Paper Submission Link : Please Click Here To Submit Paper • 
-      </a>
-    </div>
-  </div>
-</div>
+            <ImportantBanner />
+
             <div className="papaContainer">
                 <div className="leftContainer">
                     <div className={styles.heading}>
@@ -76,11 +63,11 @@ const Registration = () => {
                                 ))}
                             </tbody>
                         </table>
-                        <ul className={styles.list}>
+                        {/*<ul className={styles.list}>
                             <li><strong>Paper Submission Link :</strong> <a href="https://cmt3.research.microsoft.com/PERCAA2024" className={styles.list_item}>Please Click  Here To Submit Paper</a></li>
                             <li><a href="/docs/RegistrationForm.pdf" download="Registraion Form" className={styles.list_item}>Registration Form</a></li>
                             
-                        </ul>
+                        </ul>*/}
                     </div>
                     <div className={styles.heading}>
                         Payment Details :

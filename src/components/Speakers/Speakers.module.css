@@ -28,26 +28,26 @@
 .info {
     display: flex;
     flex-direction: column;
-    font-weight: 800;
+    font-weight: 550;
     color: black;
     gap: 0px;
 }
 .info p{
     color: black;
     text-align: center ;
-    font-size: .9rem;
+    font-size: .8rem;
 }
 .card:hover {
     transform: translateY(-10px);
 }
 
 .card h2 {
-    font-size: 1.2rem;
+    font-size: .9rem;
     margin-bottom: 0px;
     text-align: center;
     text-decoration: underline;
     line-height: 0px;
-    word-spacing: 3px;
+    word-spacing: 0px;
     text-underline-offset: 10px;
     text-decoration-color: #373535;
     font-style: italic;
@@ -72,8 +72,8 @@
 
 @media (max-width: 1280px) {
     .card h2 {
-        font-size: .8em;
-        margin-bottom: 10px;
+        font-size: .9em;
+        margin-bottom: 0px;
         text-align: center;
     }
 }

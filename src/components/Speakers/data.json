@@ -127,28 +127,34 @@
       "name": "Dr. Ihtiram Raza Khan",
       "title": "Assistant Professor (Senior Grade)",
       "institution": "Jamia Hamdard",
-      "location": "New Delhi , India"
+      "location": "New Delhi , India",
+      "img": "/oc/Empty.jpg"
       
     },
     {
       "name": "Ram Chandra Sachan",
       "title": "Network Architect",
       "institution": "Wipro",
-      "location": "US"
-      
+      "location": "US",
+            "img": "/oc/Empty.jpg"
+
     },
     {
       "name": "Dr. Rajiv Singh",
       "title": "Associate Professor",
       "institution": "Banasthali Vidyapith",
-      "location": "Rajasthan, India"
+      "location": "Rajasthan, India",
+            "img": "/oc/Empty.jpg"
+
       
     },
     {
       "name": "Dr. Sultan Ahmad",
       "title": "Professor",
       "institution": "Department of Computer Science,Prince Sattam Bin Abdulaziz University",
-      "location": "Saudi Arabia"
+      "location": "Saudi Arabia",
+            "img": "/oc/Empty.jpg"
+
   
     }
   ]

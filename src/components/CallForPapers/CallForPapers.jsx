@@ -1,25 +1,12 @@
 import RightContent from "../RightContent/RightContent"
 import './CallForPapers.css'
 import Footer from "../Footer/Footer"
+import ImportantBanner from "../ImportantLink/ImportantLink";
+
 const CallForPapers = () => {
     return (
         <div>
-            <div className="important-banner">
-  <div className="important-label">IMPORTANT</div>
-  <div className="marquee-container">
-    <div className="marquee-content">
-      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
-        Paper Submission Link : Please Click Here To Submit Paper • 
-      </a>
-      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
-        Paper Submission Link : Please Click Here To Submit Paper • 
-      </a>
-      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
-        Paper Submission Link : Please Click Here To Submit Paper • 
-      </a>
-    </div>
-  </div>
-</div>
+            <ImportantBanner />
             <div className="papaContainer">
                 <div className="leftContainer">
                     <div className="homeContent">
@@ -316,13 +303,13 @@ const CallForPapers = () => {
                                  The manuscript written should be thoroughly checked for grammatical or typographical errors before submission. Authors should ensure that the similarity score of their research paper is not above 10 %. Manuscripts having similarity score more than 10 %  and AI plag less than 5 % shall not be processed. All the review manuscripts should be submitted in PDF format without authors name and affiliations using CMT kit as per the Template in Word (A4) or in Latex.
                                 <br />
                             </p>
-                            <p style={{ fontSize: '20px' }}>
+                            {/*<p style={{ fontSize: '20px' }}>
                                 <a href="https://cmt3.research.microsoft.com/PERCAA2024" style={{textDecoration:"none"}}target="_blank">
                                     <span >
                                         <strong style={{ color: "blue",  }}>Paper Submission Link. Please Click here for Submit Paper</strong>
                                     </span>
                                 </a>
-                            </p>
+                            </p>*/}
 
                             <div className="homeheading">REVIEW PROCESS</div>
                             <p className="review_process">

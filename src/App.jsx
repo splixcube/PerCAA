@@ -15,7 +15,7 @@ import TechnicalCommittee from './components/TechnicalCommittee/TechnicalCommitt
 import LocalOrganizingCommittee from './components/LocalOrganizingCommittee/LocalOrganizingCommittee'
 import OrganizingCommittee from './components/OrganizingCommittee/OrganizingCommittee'
 import Publication from './components/Publication/Publication'
-import PerCAA_2023 from './components/PerCAA-2023/PerCAA-2023'
+import PerCAA_2020 from './components/PerCAA-2020/PerCAA-2020'
 import PerCAA_2024 from './components/PerCAA-2024/PerCAA-2024'
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
           <Route path='/local-organizing-comittee' element={<LocalOrganizingCommittee />} />
           <Route path='/organizing-committee' element={<OrganizingCommittee />} />
           <Route path='/publication' element={<Publication />} />
-          <Route path='/PerCAA-2023' element={<PerCAA_2023 />} />
+          <Route path='/PerCAA-2020' element={<PerCAA_2020 />} />
           <Route path='/PerCAA-2024' element={<PerCAA_2024 />} />
         </Routes>
       </div>

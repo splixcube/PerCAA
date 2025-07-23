@@ -93,7 +93,7 @@ const Footer = () => {
               <li><a href="/registration">Registration</a></li>
               <li><a href="/speakers">Keynotes & Session Chairs</a></li>
               <li><a href="/percaa-2024">PerCAA-2024</a></li>
-              <li><a href="/percaa-2023">PerCAA-2023</a></li>
+              <li><a href="/percaa-2020">PerCAA-2020</a></li>
               <li><a href="/venue">Venue</a></li>
               <li><a href="/local-attractions">Local Attractions</a></li>
               <li><a href="/publication">Publication</a></li>

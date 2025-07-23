@@ -6,6 +6,7 @@ import Footer from "../Footer/Footer";
 import NewCrousal from "../NewCrousal/NewCrousal";
 import { IoMdClose } from "react-icons/io";
 import { IconContext } from "react-icons";
+import ImportantBanner from "../ImportantLink/ImportantLink";
 
 function Home() {
   const [showPopUp , setShowPopUp] = useState(false);
@@ -23,22 +24,7 @@ function Home() {
       <div className={`${showPopUp ? 'reducedOpacity' : ''}`}>
         <NewCrousal></NewCrousal>
       </div>
-      <div className="important-banner">
-  <div className="important-label">IMPORTANT</div>
-  <div className="marquee-container">
-    <div className="marquee-content">
-      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
-        Paper Submission Link : Please Click Here To Submit Paper • 
-      </a>
-      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
-        Paper Submission Link : Please Click Here To Submit Paper • 
-      </a>
-      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
-        Paper Submission Link : Please Click Here To Submit Paper • 
-      </a>
-    </div>
-  </div>
-</div>
+      <ImportantBanner/>
 
       {
         showPopUp && (
@@ -46,7 +32,7 @@ function Home() {
               <div className="top_heading_container">
                   <div className="top_heading_container_2">
                     <p className="percaa_pop">PerCAA 2025</p>
-                    <div className="perca_top_sub">Important Links</div>
+                    {/*<div className="perca_top_sub">Important Links</div>*/}
                   </div>
                   <div className="close_icon" onClick={closebuttonHandler}>
                     <IconContext.Provider value={{ color: "white", size: "30px" }}>
@@ -60,9 +46,9 @@ function Home() {
                 <div className="popup_content">
                   <p><span>Note : </span> Submitted Papers will be published by the Institution of Engineering and Technology (IET) on IET Digital Library, indexed by IET Inspec and Standard paper of Conference will be submitted to the following books published under Bentham series. Selected papers will be published in Scopus index journal special issue..</p>
                 </div>
-                <div className="linkContainer_popup">
+                {/*<div className="linkContainer_popup">
                     <a href="https://cmt3.research.microsoft.com/PERCAA2024"> Click  Here To Submit Paper</a>
-                </div>
+                </div>*/}
               </div>
           </div>
         )

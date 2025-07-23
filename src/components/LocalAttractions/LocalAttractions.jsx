@@ -2,41 +2,15 @@ import data from "./data.json";
 import RightContent from "../RightContent/RightContent";
 import "./LocalAttractions.css";
 import Footer from "../Footer/Footer";
+import ImportantBanner from "../ImportantLink/ImportantLink";
+
 // If you're using CSS Modules for heading styling:
 // import styles from "./LocalAttractions.module.css"; // <-- use if needed
 
 const LocalAttractions = () => {
   return (
     <>
-      <div className="important-banner">
-        <div className="important-label">IMPORTANT</div>
-        <div className="marquee-container">
-          <div className="marquee-content">
-            <a
-              href="https://cmt3.research.microsoft.com/PERCAA2024"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Paper Submission Link : Please Click Here To Submit Paper •{" "}
-            </a>
-            <a
-              href="https://cmt3.research.microsoft.com/PERCAA2024"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Paper Submission Link : Please Click Here To Submit Paper •{" "}
-            </a>
-            <a
-              href="https://cmt3.research.microsoft.com/PERCAA2024"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Paper Submission Link : Please Click Here To Submit Paper •{" "}
-            </a>
-          </div>
-        </div>
-      </div>
-
+      <ImportantBanner />
       
 
       <div className="papaContainer">

@@ -1,26 +1,12 @@
 import './PerCAA-2024.css';
 import Footer from "../Footer/Footer";
 import RightContent from "../RightContent/RightContent";
+import ImportantBanner from "../ImportantLink/ImportantLink";
 
 const PerCAA_2024 = () => {
   return (
     <>
-      <div className="important-banner">
-  <div className="important-label">IMPORTANT</div>
-  <div className="marquee-container">
-    <div className="marquee-content">
-      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
-        Paper Submission Link : Please Click Here To Submit Paper • 
-      </a>
-      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
-        Paper Submission Link : Please Click Here To Submit Paper • 
-      </a>
-      <a href="https://cmt3.research.microsoft.com/PERCAA2024" target="_blank" rel="noopener noreferrer">
-        Paper Submission Link : Please Click Here To Submit Paper • 
-      </a>
-    </div>
-  </div>
-</div>
+      <ImportantBanner />
       {/* === Main Layout === */}
       <div className="papaContainer">
         {/* === Left Content === */}
@@ -62,8 +48,13 @@ const PerCAA_2024 = () => {
             <h2>Past Conference Papers</h2>
             <ul className="paperLinks">
               <li>
-                <a href="https://ieeexplore.ieee.org/xpl/conhome/10998970/proceeding" target="_blank" rel="noopener noreferrer">
+                <a href="https://digital-library.theiet.org/toc/icp/2024/38" target="_blank" rel="noopener noreferrer">
                   Click here for Published Papers of PerCAA-2024
+                </a>
+              </li>
+              <li>
+                <a href="https://percaa.poornima.org/" target="_blank" rel="noopener noreferrer">
+                  Click here for PerCAA-2024 conference details
                 </a>
               </li>
             </ul>

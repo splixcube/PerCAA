@@ -139,12 +139,17 @@
       {
         "name": "Prakhar Mathur",
         "details": "Student Coordinator,  2nd Year, Computer Science & Engineering, PCE , Jaipur",
-        "img":"/oc/Prakhar Mathur.jpeg"
+        "img":"/oc/Prakhar Mathur.jpg"
       },
       {
         "name": "Nisha Leharwani",
         "details": "Student Coordinator,  2nd Year, Computer Science & Engineering, PCE , Jaipur",
-        "img":"/oc/Nisha Leharwani.jpeg"
+        "img":"/oc/Nisha Leharwani.jpg"
+      },
+      {
+        "name": "Laxmikant Gaur",
+        "details": "Student Coordinator,  2nd Year, Computer Science & Engineering, PCE , Jaipur",
+        "img":"/oc/Laxmikant Gaur.HEIC"
       }
       
     ],
