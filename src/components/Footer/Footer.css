@@ -139,3 +139,42 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 760px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 0 20px 30px 20px;
+  }
+
+  .footer-wrap {
+    flex-direction: column;
+    min-width: 100%;
+  }
+
+  .quick-links-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .footer-section {
+    min-width: 100%;
+  }
+
+  .footer-section h3,
+  .footer-section h4 {
+    font-size: 1.1rem;
+  }
+
+  .quick-links-container ul li a {
+    font-size: 0.95rem;
+  }
+
+  .footer-bottom {
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 0.75rem;
+  }
+}
