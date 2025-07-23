@@ -78,7 +78,10 @@ const RightContent = () => {
                 <div className="Sponsers">
                     {/* <img src={Poornima_Logo_full} alt="" /> */}
                     {/* <img src={IET_logo} alt="" /> */}
-                    <img className='right_poornima_chapterLogo' src={Poornima_Logo} alt="" />
+                    <div className='right_poornima_chapterLogo'>
+                        <img  src={Poornima_Logo} alt="" />
+                        <img  src={Poornima} alt="" />
+                    </div>
                     <div className="smallLogosSponsers">
                         <img src={IET_logo} alt="" />
                         <img src={Scopus} alt="" />

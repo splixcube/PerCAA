@@ -72,7 +72,7 @@
   align-items: center;
   margin: 10px 0;
   margin-bottom: -10px;
-  gap: 25px;
+  gap: 2px;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -109,8 +109,14 @@
 }
 
 .right_poornima_chapterLogo {
-  width: 40% !important;
+  width: 15% !important;
   height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  padding: 0px;
 }
 
 .right_acm_chapterLogo {

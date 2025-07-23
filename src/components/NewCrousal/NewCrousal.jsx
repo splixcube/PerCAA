@@ -29,7 +29,7 @@ const NewCrousal = () => {
                     break;
                 }
             }
-        }, 2500);
+        }, 5000);
 
         return () => clearInterval(interval);
     }, []);
@@ -38,7 +38,7 @@ const NewCrousal = () => {
         <div className="crousalCOmponent">
 
         <div className="carousel">
-                <div className="carousel-item" ref={el => slidesRef.current[0] = el}>
+                <div className="carousel-item" ref={el => slidesRef.current[4] = el}>
                     <img className="slide-image" src='/TopCrousalIMages/1st.png' ></img>
                     
                 </div>
@@ -48,7 +48,7 @@ const NewCrousal = () => {
                 </div>
                 
                 <div className="carousel-item" ref={el => slidesRef.current[1] = el}>
-                    <img className="slide-image" src='/TopCrousalIMages/PerccaaBanner.png' ></img>
+                    <img className="slide-image" src='/TopCrousalIMages/New_Conf.png' ></img>
                     
                 </div>
             <div className="carousel-item" ref={el => slidesRef.current[2] = el}>
