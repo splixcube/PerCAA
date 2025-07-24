@@ -38,7 +38,7 @@ const NewCrousal = () => {
         <div className="crousalCOmponent">
 
         <div className="carousel">
-                <div className="carousel-item" ref={el => slidesRef.current[4] = el}>
+                <div className="carousel-item" ref={el => slidesRef.current[3] = el}>
                     <img className="slide-image" src='/TopCrousalIMages/1st.png' ></img>
                     
                 </div>
@@ -51,14 +51,14 @@ const NewCrousal = () => {
                     <img className="slide-image" src='/TopCrousalIMages/New_Conf.png' ></img>
                     
                 </div>
-            <div className="carousel-item" ref={el => slidesRef.current[2] = el}>
+            {/*<div className="carousel-item" ref={el => slidesRef.current[2] = el}>
             <img className="slide-image" src='/TopCrousalIMages/2.png' ></img>
-                {/* <div className="slide-image"
+                 <div className="slide-image"
                     style={{ backgroundImage: 'url(/TopCrousalIMages/DSC_2109.jpg)' }}>
-                </div> */}
-            </div>
-            <div className="carousel-item" ref={el => slidesRef.current[3] = el}>
-            <img className="slide-image" src='/TopCrousalIMages/3rd.png' ></img>
+                </div> 
+            </div>*/}
+            <div className="carousel-item" ref={el => slidesRef.current[2] = el}>
+            <img className="slide-image" src='/TopCrousalIMages/Faculty.png' ></img>
                 {/* <div className="slide-image"
                     style={{ backgroundImage: 'url(/TopCrousalIMages/PCE.jpg)' }}>
                 </div> */}
