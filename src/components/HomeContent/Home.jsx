@@ -81,7 +81,7 @@ function Home() {
             </div>
           </div>
           <div className="homeContent">
-            <div className="homeheading">ABOUT DEPARTMENT OF COMPUTER SCIENCE</div>
+            <div className="homeheading">ABOUT DEPARTMENT OF COMPUTER ENGINEERING</div>
             <div className="paracontent">
               <p>
                 Computer Engineering combines the academic disciplines of electronics engineering and computer sciences which helps our engineering graduates to combine their understanding of computer hardware and software to innovate the stream. Computer engineering programmes prepare graduates for highly valued, sky-high careers in design, development, research and testing of various hardware and software.The department focuses not only on the theoretical aspects but emphasize the overall development of the students. It conducts various co-curricular activities such as informative workshops and industrial visits to companies. It makes the student industry ready with all practical exposer, expert talks on new technologies, technical events like coding competition, hackathon, etc. We believe, such activities help them to meet the demands of Industry or existing market.
