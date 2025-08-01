@@ -20,7 +20,9 @@
   border-radius: 2px;
   color: white;
 }
-
+.important-label p {
+  color: white;
+}
 .marquee-container {
   position: relative;
   overflow: hidden;
@@ -49,4 +51,17 @@
   100% {
     transform: translateX(-100%);
   }
+}
+
+@media (max-width: 560px) {
+  .important-banner{
+    height: 7px;
+  }
+  .important-label{
+    height: 15px;
+  }
+  .important-label p{
+    font-size: 7px;
+  }
+  
 }
