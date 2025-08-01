@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
 
         {/* Contact Section */}
-<div className="footer-section contact">
+<div className="footer-section contact order-contact">
   <h4>Contact Us</h4>
 
   <p style={{ display: 'flex', flexDirection: 'column', alignItems: 'start', gap: '5px' }}>
@@ -77,7 +77,7 @@ const Footer = () => {
 
 
         {/* Quick Links */}
-        <div className="footer-section links">
+        <div className="footer-section links order-links">
           <h4 className="quick-links-heading">Quick Links</h4>
           <div className="quick-links-container">
             <ul>

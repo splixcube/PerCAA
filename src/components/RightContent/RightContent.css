@@ -198,6 +198,11 @@ td b {
 
 @media (max-width: 760px) {
   .rightContent{
-    visibility: hidden;
+    display: none;
+  }
+}
+@media (max-width: 851px) {
+  .rightContent{
+    display: none;
   }
 }

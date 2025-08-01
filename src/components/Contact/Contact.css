@@ -67,7 +67,7 @@
     font-size: 0.8em;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1064px) {
   .card-contact {
   width: calc(63% - 20px);
   
@@ -75,7 +75,12 @@
 }
 @media (max-width: 930px) {
   .card-contact {
-    width: calc(33% - 20px);
+    width: calc(63% - 20px);
+  }
+}
+@media (max-width: 878px) {
+  .card-contact {
+    width: calc(63% - 20px);
   }
 }
 @media (max-width: 768px) {
