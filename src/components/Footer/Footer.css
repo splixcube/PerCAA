@@ -112,6 +112,12 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .quick-links-container {
+    flex-direction: column;
+  }
+}
+
 
 .quick-links-container ul {
   list-style: none;
