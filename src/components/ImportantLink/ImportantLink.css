@@ -1,4 +1,3 @@
-
 .important-banner {
   display: flex;
   margin-top: 0px;
@@ -20,9 +19,7 @@
   border-radius: 2px;
   color: white;
 }
-.important-label p {
-  color: white;
-}
+
 .marquee-container {
   position: relative;
   overflow: hidden;
@@ -53,15 +50,21 @@
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 560px) { 
   .important-banner{
-    height: 7px;
+    height: 20px;
+   
   }
   .important-label{
     height: 15px;
+    width: 70px;
+    font-size: 10px !important;
+    padding: 3px 4px !important;
+    
   }
-  .important-label p{
-    font-size: 7px;
+  .marquee-content a {
+    font-size: 13px !important;
+    margin-right: 100px;
   }
   
 }

@@ -4,7 +4,7 @@ import "./ImportantLink.css";
 const ImportantBanner = () => {
   return (
     <div className="important-banner">
-      <div className="important-label"><p>IMPORTANT</p></div>
+      <div className="important-label">IMPORTANT</div>
       <div className="marquee-container">
         <div className="marquee-content">
           <a
