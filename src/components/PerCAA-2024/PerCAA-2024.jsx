@@ -53,7 +53,7 @@ const PerCAA_2024 = () => {
                 </a>
               </li>
               <li>
-                <a href="https://percaa.poornima.org/" target="_blank" rel="noopener noreferrer">
+                <a href="https://per-caa-2024.vercel.app/" target="_blank" rel="noopener noreferrer">
                   Click here for PerCAA-2024 conference details
                 </a>
               </li>
