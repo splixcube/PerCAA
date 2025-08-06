@@ -5,14 +5,15 @@ import ImportantBanner from "../ImportantLink/ImportantLink";
 
 const ImportantDates = () => {
     const dates = [
-        { event: "Start of Call for Papers", date: ['July 24, 2025'] },
-        { event: "Last Date of Paper Submission", date: ['August 21, 2025'] },
-        { event: "Acceptance Notification", date: ['August 28, 2025'] },
-        { event: "Final Paper Submission Deadline", date: ['September 04, 2025'] },
-        { event: "Last Date of Registration", date: ['September 11, 2025'] },
+        { event: "Start of Call for Papers", date: ['August 06, 2025'] },
+       /* { event: "Last Date of Paper Submission", date: ['August 21, 2025'] },*/
+        { event: "Final Paper Submission Deadline", date: ['September 01, 2025'] },
+        { event: "Autor Notification", date: ['September 15, 2025'] },
+        { event: "Camera Ready Paper Submission", date: ['October 01, 2025'] },
+        { event: "Last Date of Registration", date: ['October 10, 2025'] },
         { event: "Conference Date", date: ['November 07-08, 2025'] },
-        /*{ event: "Camera Ready Paper Submission", date: ['September 30, 2024', 'October 08, 2024'] },
-        { event: "Early Bird Registration" , date:['October 10, 2024']},*/
+        
+        /*{ event: "Early Bird Registration" , date:['October 10, 2024']},*/
     ];
 
     return (

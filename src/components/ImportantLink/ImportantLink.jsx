@@ -8,25 +8,25 @@ const ImportantBanner = () => {
       <div className="marquee-container">
         <div className="marquee-content">
           <a
-            href=""
+            href="https://cmt3.research.microsoft.com/PerCAA2025"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Paper Submission Link : Please Click Here To Submit Paper •
+            • Paper Submission Link : Please Click Here To Submit Paper 
           </a>
           <a
-            href=""
+            href="https://cmt3.research.microsoft.com/PerCAA2025"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Paper Submission Link : Please Click Here To Submit Paper •
+            • Paper Submission Link : Please Click Here To Submit Paper
           </a>
           <a
-            href=""
+            href="https://cmt3.research.microsoft.com/PerCAA2025"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Paper Submission Link : Please Click Here To Submit Paper •
+            • Paper Submission Link : Please Click Here To Submit Paper
           </a>
         </div>
       </div>

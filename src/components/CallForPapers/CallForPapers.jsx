@@ -303,13 +303,13 @@ const CallForPapers = () => {
                                  The manuscript written should be thoroughly checked for grammatical or typographical errors before submission. Authors should ensure that the similarity score of their research paper is not above 10 %. Manuscripts having similarity score more than 10 %  and AI plag less than 5 % shall not be processed. All the review manuscripts should be submitted in PDF format without authors name and affiliations using CMT kit as per the Template in Word (A4) or in Latex.
                                 <br />
                             </p>
-                            {/*<p style={{ fontSize: '20px' }}>
-                                <a href="https://cmt3.research.microsoft.com/PERCAA2024" style={{textDecoration:"none"}}target="_blank">
+                            <p style={{ fontSize: '20px' }}>
+                                <a href="https://cmt3.research.microsoft.com/PerCAA2025" style={{textDecoration:"none", fontSize:18}}target="_blank">
                                     <span >
-                                        <strong style={{ color: "blue",  }}>Paper Submission Link. Please Click here for Submit Paper</strong>
+                                        <strong style={{ color: "blue",  }}>• Paper Submission Link. 👈Please Click here for Submit Paper</strong>
                                     </span>
                                 </a>
-                            </p>*/}
+                            </p>
 
                             <div className="homeheading">REVIEW PROCESS</div>
                             <p className="review_process">
