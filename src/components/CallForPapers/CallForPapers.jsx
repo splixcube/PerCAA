@@ -291,10 +291,10 @@ const CallForPapers = () => {
                         </div>
 
                     </div>
-
-
-
-
+                    <div className="doc_container">
+                        <a href="/docs/Author_Guidelines1.doc" download="Paper Format" className="doc_details" >Click here for paper format of IET Conference Proceeding</a>
+                    </div>
+<br/>
                     <div className="homeContent">
                         <div className="homeheading">PAPER SUBMISSION INFORMATION</div>
                         <div className="paracontent">
