@@ -286,6 +286,55 @@ const CallForPapers = () => {
                                             <p>Near Field Communication</p>
                                         </td>
                                     </tr>
+                                    <br/>
+                                    <tr>
+                                        <td className="pstrongCFP" colSpan="3">
+                                            <p ><strong>Track 3: Robotics for Healthcare and Assistive Technologies</strong></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Revolutionizing the healthcare and assistive technology landscape</p>
+                                        </td>
+                                        <td>
+                                            <p>Transformative solutions for patient care</p>
+                                        </td>
+                                        <td>
+                                            <p>Diagnosis, rehabilitation, and support for individuals with disabilities or age-related challenges</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>AI-driven robotic systems specifically designed for healthcare and assistive purposes</p>
+                                        </td>
+                                        <td>
+                                            <p>Integration of AI in robotic systems to enhance healthcare delivery</p>
+                                        </td>
+                                        <td>
+                                            <p>Integration of AI in support independent living</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Improve the quality of life for patients</p>
+                                        </td>
+                                        <td>
+                                            <p>Intelligent assistive devices</p>
+                                        </td>
+                                        <td>
+                                            <p>Robotic rehabilitation systems</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>Surgical robotics and AI-based diagnostics</p>
+                                        </td>
+                                        <td>
+                                            <p>Remote monitoring and personalized care technologies</p>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    
                                 </tbody>
                             </table>
                         </div>
