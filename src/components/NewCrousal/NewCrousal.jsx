@@ -42,12 +42,12 @@ const NewCrousal = () => {
                     <img className="slide-image" src='/TopCrousalIMages/1st.png' ></img>
                     
                 </div>
-                <div className="carousel-item" ref={el => slidesRef.current[0] = el}>
+                <div className="carousel-item" ref={el => slidesRef.current[1] = el}>
                     <img className="slide-image" src='/TopCrousalIMages/new.jpeg' ></img>
                     
                 </div>
                 
-                <div className="carousel-item" ref={el => slidesRef.current[1] = el}>
+                <div className="carousel-item" ref={el => slidesRef.current[0] = el}>
                     <img className="slide-image" src='/TopCrousalIMages/New_Conf.png' ></img>
                     
                 </div>
