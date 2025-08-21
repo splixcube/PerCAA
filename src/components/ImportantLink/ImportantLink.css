@@ -32,7 +32,7 @@
 .marquee-content {
   display: inline-block;
   white-space: nowrap;
-  animation: scroll-left 120s linear infinite;
+  animation: scroll-left 920s linear infinite;
 }
 
 .marquee-content a {

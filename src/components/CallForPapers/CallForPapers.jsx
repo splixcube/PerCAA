@@ -342,11 +342,14 @@ const CallForPapers = () => {
                     </div>
                     <div className="doc_container">
                         <a href="/docs/Author_Guidelines1.doc" download="Paper Format" className="doc_details" >Click here for paper format of IET Conference Proceeding</a>
+                        <br/>
+                        
                     </div>
 <br/>
                     <div className="homeContent">
                         <div className="homeheading">PAPER SUBMISSION INFORMATION</div>
                         <div className="paracontent">
+                            <p><strong>The Best Paper Award will be conferred on one outstanding paper from each track of the conference, in recognition of its quality, originality, and contribution.</strong></p>
                             <p>
                                 All the papers should be prepared as per author guidelines
                                  The manuscript written should be thoroughly checked for grammatical or typographical errors before submission. Authors should ensure that the similarity score of their research paper is not above 10 %. Manuscripts having similarity score more than 10 %  and AI plag less than 5 % shall not be processed. All the review manuscripts should be submitted in PDF format without authors name and affiliations using CMT kit as per the Template in Word (A4) or in Latex.

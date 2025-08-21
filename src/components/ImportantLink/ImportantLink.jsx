@@ -28,6 +28,8 @@ const ImportantBanner = () => {
           >
             • Paper Submission Link : Please Click Here To Submit Paper
           </a>
+          <a>#The Best Paper Award will be conferred on one outstanding paper from each track of the conference, in recognition of its quality, originality, and contribution.
+          </a>
         </div>
       </div>
     </div>
