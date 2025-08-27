@@ -42,7 +42,7 @@ const RightContent = () => {
                     {/* <img src={ACM_Jaipur} alt="" /> */}
                     <div class="Poornima">
                     <img src={Poornima_Logo} alt="" />
-                    <img src={Poornima} alt="" />
+                    {/* <img src={Poornima} alt="" /> */}
                     </div>
                     <div className="smallLogosTechSponsers">
                         <img src={ACM_Jaipur} alt="" />
@@ -83,7 +83,7 @@ const RightContent = () => {
                     {/* <img src={IET_logo} alt="" /> */}
                     <div className='right_poornima_chapterLogo'>
                         <img  src={Poornima_Logo} alt="" />
-                        <img  src={Poornima} alt="" />
+                        {/* <img  src={Poornima} alt="" /> */}
                     </div>
                     <div className="smallLogosSponsers">
                         <img src={IET_logo} alt="" />

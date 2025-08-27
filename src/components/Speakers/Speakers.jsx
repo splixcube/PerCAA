@@ -12,7 +12,7 @@ const Speakers = ()=>{
                 <div className={styles.heading}>
                     Keynotes & Session Chairs : 
                 </div>
-                    {/*<div className={styles.contianer_wrapper}>
+                    <div className={styles.contianer_wrapper}>
                     <div className={styles.container}>
                         {
                             data.map((item , index)=>{
@@ -34,12 +34,12 @@ const Speakers = ()=>{
                             })
                         }
                     </div>
-                    </div>*/}
-                    <div className={styles.container}>
+                    </div>
+                    {/* <div className={styles.container}>
         <h2 style={{ textAlign: 'center',fontFamily: 'Poppins', width: '100%', marginTop: '50px',marginBottom:'50px', fontSize: '3.5rem' }}>
             To be updated soon...
         </h2>
-    </div>
+    </div> */}
                 </div>
                 <div className="rightContainer">
                     <RightContent></RightContent>
