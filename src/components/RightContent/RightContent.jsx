@@ -18,10 +18,11 @@ const RightContent = () => {
         { event: "Final Paper Submission Deadline", date: ['September 01, 2025'] },
         { event: "Autor Notification", date: ['September 15, 2025'] },
         { event: "Camera Ready Paper Submission", date: ['October 01, 2025'] },
-        { event: "Last Date of Registration", date: ['October 10, 2025'] },
+        { event: "Early Bird Registration" , date:['October 10, 2025']},
+        { event: "Last Date of Registration", date: ['October 10, 2025','October 20, 2025'] },
         { event: "Conference Date", date: ['November 07-08, 2025'] },
         
-        /*{ event: "Early Bird Registration" , date:['October 10, 2024']},*/
+        /**/
     ];
 
     const handleclickmedia1 = () => {

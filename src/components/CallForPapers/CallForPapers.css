@@ -93,3 +93,7 @@ table tr:nth-child(odd) {
     transform: translateX(-100%);
   }
 }
+
+.track-item{
+  text-align: left;
+}

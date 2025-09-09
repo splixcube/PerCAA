@@ -372,10 +372,23 @@ const CallForPapers = () => {
                                 </ul>
                                 For the papers accepted with minor corrections, authors will be required to incorporate all the corrections
                                 and submit the paper by mail to corresponding track email id as;<br /><br />
-                                <strong>Track 1:</strong> Pervasive & Ubiquitous Computing: {' '}
-                                <a href="mailto:percaa2025@poornima.org">percaa2025@poornima.org</a><br /><br />
-                                <strong>Track 2:</strong> Mobile Communication & Networking: {' '}
-                                <a href="mailto:percaa2025@poornima.org">percaa2025@poornima.org</a><br />
+                                <div className="tracks-container">
+  <div className="track-item">
+    <strong>Track 1:</strong> Pervasive & Ubiquitous Computing:
+    <a href="mailto:percaa2025@poornima.org">percaa2025@poornima.org</a>
+  </div>
+
+  <div className="track-item">
+    <strong>Track 2:</strong> Mobile Communication & Networking:
+    <a href="mailto:percaa2025@poornima.org">percaa2025@poornima.org</a>
+  </div>
+
+  <div className="track-item">
+    <strong>Track 3:</strong> Robotics for Healthcare and Assistive Technologies:
+    <a href="mailto:percaa2025@poornima.org">percaa2025@poornima.org</a>
+  </div>
+</div>
+
                             </p>
 
                             <div className="homeheading">ORAL PRESENTATION</div>
