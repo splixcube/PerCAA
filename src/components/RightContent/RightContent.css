@@ -175,20 +175,20 @@
 
 .rredheadline {
   text-align: center;
-  color: red;
+  color: rgb(255, 0, 0);
   font-weight: 500;
 }
 
 .cut {
   text-decoration: line-through;
   font-weight: 700;
-  color: rgb(157, 155, 155);
-  text-decoration-color: rgb(88, 88, 88);
-  text-decoration-thickness: .2px ;
+  color: rgb(255, 0, 0);
+  text-decoration-color: rgb(255, 0, 0);
+  text-decoration-thickness: 1.9px ;
 }
 
 td b {
-  color: red;
+  color: rgb(0, 0, 0);
   font-weight: 700;
 }
 

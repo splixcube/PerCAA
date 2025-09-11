@@ -15,9 +15,9 @@ const RightContent = () => {
     const dates = [
         { event: "Start of Call for Papers", date: ['August 06, 2025'] },
        /* { event: "Last Date of Paper Submission", date: ['August 21, 2025'] },*/
-        { event: "Final Paper Submission Deadline", date: ['September 01, 2025'] },
-        { event: "Autor Notification", date: ['September 15, 2025'] },
-        { event: "Camera Ready Paper Submission", date: ['October 01, 2025'] },
+        { event: "Final Paper Submission Deadline", date: ['September 01, 2025','September 15, 2025'] },
+        { event: "Autor Notification", date: ['September 15, 2025','September 30, 2025'] },
+        { event: "Camera Ready Paper Submission", date: ['October 01, 2025','October 05, 2025'] },
         { event: "Early Bird Registration" , date:['October 10, 2025']},
         { event: "Last Date of Registration", date: ['October 10, 2025','October 20, 2025'] },
         { event: "Conference Date", date: ['November 07-08, 2025'] },
