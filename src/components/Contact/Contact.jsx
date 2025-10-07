@@ -32,7 +32,7 @@ const Contact = () => {
                             </div>
                             <div className="card-contact">
                                 <img src="\oc\Sonam Gour.jpeg" alt="PerCAA Logo" className='contactLogo' />
-                                <h2>Ms. Sonam Gour</h2>
+                                <h2>Dr. Sonam Gour</h2>
                                 <p style={{fontWeight:"bold" , fontSize:".8rem"}}>Convenor</p>
                                 <p style={{fontWeight:"bold" , fontSize:".8rem" , marginTop:"10px"}}>Contact : +91 9509885411</p>
                                 
