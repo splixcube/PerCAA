@@ -12,7 +12,7 @@
             "title": "Director and Principal",
             "institution": "PCE",
             "location": "Jaipur",
-            "img":"/oc/Rahul sir.jpg"
+            "img":"/oc/Empty.jpg"
           }
     ],
     "GeneralChair": [
@@ -117,21 +117,21 @@
         "institution": "Indian Institute of Technology, Madras",
         "location": "Chennai",
         "title": "Course Instructor at Indian Institute of Technology, Madras and Co-Founder of Cloud-DF Solution",
-        "img":"/oc/"
+        "img":"/oc/Empty.jpg"
       },
       {
         "name": "Dr.Aditya Dubey",
-        "institution": "PCE",
+        "institution": "SMD",
         "location": "Jaipur",
         "title": "Professor",
-        "img":"/oc/Veena Yadav.jpg"
+        "img":"/oc/Empty.jpg"
       },
       {
         "name": "Dr.Abhishek Sharma",
         "institution": "Chitkara University",
         "location": "Jaipur",
         "title": "Professor",
-        "img":"/oc/Veena Yadav.jpg"
+        "img":"/oc/Empty.jpg"
       },
       {
         "name": "Dr. Veena Yadav",
