@@ -1,6 +1,7 @@
 import RightContent from "../RightContent/RightContent"
 import styles from "./Publication.module.css"
 import IET_logo from '/logos/IET_logo.png'
+import Scopus from '/logos/spocuslogo.png'
 import Bentham_logo from '/logos/Bentham_logo.png'
 import Footer from "../Footer/Footer"
 import ImportantBanner from "../ImportantLink/ImportantLink";
@@ -29,13 +30,22 @@ const Publication = () => {
                     <br></br>
                     <br></br>
                     <div>
-                        <div className={styles.heading}>SCOPUS INDEX GENERAL COMING SOON...</div>
+                        <div className={styles.heading}>SCOPUS INDEX JOURNAL</div>
                         <div className={styles.publicationData}>
 
                             <div className={styles.data}>
-                                
+                                The conference proceedings will be indexed in Scopus, the world’s largest abstract and citation database of peer-reviewed literature, owned by Elsevier. Scopus covers more than 40,000 journals, books, and conference proceedings across science, technology, medicine, social sciences, and humanities. Recognized globally for research quality and impact, Scopus provides citation tracking, author profiles, and institutional metrics. Publications indexed in Scopus ensure international visibility, credibility, and recognition in academic and professional communities.<br/><br/>
+
+                                <a href="https://www.eurekaselect.com/public/call-for-papers-detail/7267/specialissue"
+                                target="_blank" rel="noopener noreferrer" style={{ color: 'blue', textDecoration: 'underline', wordBreak: 'break-word' }}>
+                                      https://www.eurekaselect.com/public/call-for-papers-detail/7267/specialissue
+                                </a>
+                                <br/>
+                                <br/>
+
+                                "Some selected paper submitted to mention journal. Terms and condition apply"
                             </div>
-                            <img className={styles.IET_logo} src={{}} alt="" />
+                            <img className={styles.IET_logo} src={Scopus} alt="" />
                         </div>
 
                     </div>

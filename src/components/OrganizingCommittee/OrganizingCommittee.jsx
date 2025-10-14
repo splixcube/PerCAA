@@ -16,6 +16,29 @@ const OrganizingCommittee =  ()=>{
 </div>
 
                     <div className={styles.heading}>
+                        Chief Patron : 
+                    </div>
+                    <div className={styles.contianer_wrapper}>
+                    <div className={styles.container}>
+                        {
+                            data.ChiefPatron.map((item , index)=>{
+                                return(
+                                    <div className={styles.card}>
+                                        {
+                                            item.img &&(
+                                                <img src={item.img}/>
+                                            )
+                                        }
+                                        <h2>{item.name}</h2>
+                                        <p className={styles.designation_title}>{item.title}</p>
+                                        <p>{item.institution} , {item.location}</p>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                    </div>
+                    <div className={styles.heading}>
                         General Chair : 
                     </div>
                     <div className={styles.contianer_wrapper}>

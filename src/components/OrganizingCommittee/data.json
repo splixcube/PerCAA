@@ -1,4 +1,20 @@
 {
+    "ChiefPatron": [
+        {
+            "name": "Shri. Rahul Singhi",
+            "title": "Director and Principal",
+            "institution": "PCE",
+            "location": "Jaipur",
+            "img":"/oc/Rahul sir.jpg"
+          },
+          {
+            "name": "MKM Shah",
+            "title": "Director and Principal",
+            "institution": "PCE",
+            "location": "Jaipur",
+            "img":"/oc/Rahul sir.jpg"
+          }
+    ],
     "GeneralChair": [
         {
             "name": "Dr. Mahesh Bundele",
@@ -75,6 +91,48 @@
       }
     ],
     "TrackChair": [
+      {
+        "name": "Dr. Keshav Kaushik",
+        "institution": "Center for Cyber Security and Cryptology, Sharda School of Computer Science & Engineering, Sharda University",
+        "location": "Greater Noida, India",
+        "title": "Associate Professor",
+        "img":"/oc/Dr.Keshav Kaushik.jpg"
+      },
+      {
+        "name": "Dr. Savita Shiwani",
+        "institution": "Poornima University",
+        "location": "Jaipur",
+        "title": "HoD (Computer Application) & Professor",
+        "img":"/oc/Dr.Savita Shiwani.jpg"
+      },
+      {
+        "name": "Dr.Prashant Singh Rana",
+        "institution": "Computer Science & Engineering Dept, Thapar Institute of Engg, & Tech",
+        "location": "Patiala",
+        "title": "Associate Professor",
+        "img":"/oc/Dr.Prashant Rana.jpg"
+      },
+      {
+        "name": "Dr. Ankit Agarwal",
+        "institution": "Indian Institute of Technology, Madras",
+        "location": "Chennai",
+        "title": "Course Instructor at Indian Institute of Technology, Madras and Co-Founder of Cloud-DF Solution",
+        "img":"/oc/"
+      },
+      {
+        "name": "Dr.Aditya Dubey",
+        "institution": "PCE",
+        "location": "Jaipur",
+        "title": "Professor",
+        "img":"/oc/Veena Yadav.jpg"
+      },
+      {
+        "name": "Dr.Abhishek Sharma",
+        "institution": "Chitkara University",
+        "location": "Jaipur",
+        "title": "Professor",
+        "img":"/oc/Veena Yadav.jpg"
+      },
       {
         "name": "Dr. Veena Yadav",
         "institution": "PCE",
