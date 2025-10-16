@@ -1,18 +1,18 @@
 {
     "ChiefPatron": [
         {
-            "name": "Shri. Rahul Singhi",
-            "title": "Director and Principal",
-            "institution": "PCE",
+            "name": "Sh. M.K.M Shah",
+            "title": "Nominated by the Sponsoring Body",
+            "institution": "Poornima Group",
             "location": "Jaipur",
-            "img":"/oc/Rahul sir.jpg"
+            "img":"/oc/MKM Shah.jpg"
           },
           {
-            "name": "MKM Shah",
-            "title": "Director and Principal",
-            "institution": "PCE",
+            "name": "Shri. Rahul Singhi",
+            "title": "Director of Poornima Group",
+            "institution": "Poornima Group",
             "location": "Jaipur",
-            "img":"/oc/Empty.jpg"
+            "img":"/oc/Rahul sir.jpg"
           }
     ],
     "GeneralChair": [
@@ -116,22 +116,22 @@
         "name": "Dr. Ankit Agarwal",
         "institution": "Indian Institute of Technology, Madras",
         "location": "Chennai",
-        "title": "Course Instructor at Indian Institute of Technology, Madras and Co-Founder of Cloud-DF Solution",
-        "img":"/oc/Empty.jpg"
+        "title": "Course Instructor at Indian Institute of Technology, Madras Co-Founder of Cloud-DF Solution",
+        "img":"/oc/Dr. Ankit Agarwal.jpg"
       },
       {
         "name": "Dr.Aditya Dubey",
-        "institution": "SMD",
-        "location": "Jaipur",
-        "title": "Professor",
-        "img":"/oc/Empty.jpg"
+        "institution": "Madhav Institute of Technology & Science",
+        "location": "Gwalior",
+        "title": "Assistant Professor",
+        "img":"/oc/Aditya Dubey.jpg"
       },
       {
-        "name": "Dr.Abhishek Sharma",
+        "name": "Dr.Abhishek Thakur",
         "institution": "Chitkara University",
-        "location": "Jaipur",
-        "title": "Professor",
-        "img":"/oc/Empty.jpg"
+        "location": "Chandigarh",
+        "title": "Associate Professor",
+        "img":"/oc/Dr. Abishek Thakur.jpg"
       },
       {
         "name": "Dr. Veena Yadav",
