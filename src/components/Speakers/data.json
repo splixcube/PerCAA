@@ -1,24 +1,97 @@
-[
 {
-      "name": "Dr. Aditya Dubey",
-      "title": "Assistant Professor",
-      "institution": "Madhav Institute of Technology & Science",
-      "location": "Gwalior, M.P, India",
-      "img": "/oc/Empty.jpg"
-  },
-{
-      "name": "Dr. Aditya Dubey",
-      "title": "Assistant Professor",
-      "institution": "Madhav Institute of Technology & Science",
-      "location": "Gwalior, M.P, India",
-      "img": "/oc/Empty.jpg"
-  },
-{
-      "name": "Dr. Aditya Dubey",
-      "title": "Assistant Professor",
-      "institution": "Madhav Institute of Technology & Science",
-      "location": "Gwalior, M.P, India",
-      "img": "/oc/Empty.jpg"
-  }
-
-]
+"Guest": [
+      {
+        "name": "Dr. Sharat Kaushik",
+        "institution": "NGF College",
+        "location": "Faridabad, India",
+        "title": "Director",
+        "img":"/oc/sharat.png"
+      },
+      {
+        "name": "Dr. Nidhi Singhal",
+        "institution": "",
+        "location": "",
+        "title": "Founder & CEO, Ameliorate Global Pvt. Ltd.",
+        "img":"/oc/nidhi.jpg"
+      },
+      {
+        "name": "Dr. Keshav Kaushik",
+        "institution": "Center for Cyber Security and Cryptology, Sharda School of Computer Science & Engineering, Sharda University",
+        "location": "Greater Noida, India",
+        "title":"Associate Professor",
+        "img":"/oc/Dr.Keshav Kaushik.jpg"
+      },
+      {
+        "name": "Dr. Savita Shiwani",
+        "institution": "Poornima University ",
+        "location": "Jaipur",
+        "title":"HoD (Computer Application) & Professor",
+        "img":"/oc/Dr.Savita Shiwani.jpg"
+      },
+      {
+        "name": "Dr. Ankit Agarwal",
+        "institution": "Indian Institute of Technology",
+        "location": "Madras , Chennai",
+        "title":"Course Instructor at Indian Institute of Technology, Madras Co-Founder of Cloud-DF Solution",
+        "img":"/oc/Dr. Ankit Agarwal.jpg"
+      },
+      {
+        "name": "Dr. Ashish kumar Tripathi",
+        "institution": "Department of Computer Science, MNIT",
+        "location": "Jaipur",
+        "title":"Assistant Professor",
+        "img":"/oc/ashish.jpg"
+      },
+      {
+        "name": "Dr.Aditya Dubey",
+        "institution": "Madhav Institute of Technology & Science",
+        "location": "Gwalior",
+        "title":"Assistant Professor",
+        "img":"/oc/Aditya Dubey.jpg"
+      },
+      {
+        "name": "Dr.Abhishek Thakur",
+        "institution": "Chitkara University",
+        "location": "Chandigarh",
+        "title":"Associate Professor",
+        "img":"/oc/Dr. Abishek Thakur.jpg"
+      }
+    ],
+    "SessionChair": [
+      {
+        "name": "Mr. Karthick Cherladine",
+        "institution": "Senior Solution Architect & Global Carrier Network Integration, MVNO Connect LLC",
+        "location": "United States",
+        "title":"",
+        "img":"/oc/karthick.jpg"
+      },
+      {
+        "name": "Dr. Narumol Chumuang",
+        "institution": "",
+        "location": "Ratchaburi, Thailand",
+        "title": "Faculty of Industrial Technology",
+        "img":""
+      },
+      {
+        "name": "Ms.Tanvir Rahman Akash",
+        "institution": "Researcher and IIBA member, Trine University",
+        "location": "United States",
+        "title":"",
+        "img":"/oc/tanvir.jpg"
+      },
+      {
+        "name": "Dr. Anuj Kumar",
+        "institution": "Rushford Business School",
+        "location": "Switzerland",
+        "title":"Head of Research and Associate Professor",
+        "img":"/oc/anuj.jpg"
+      },
+      {
+        "name": "Dr. Kathrin Kind",
+        "institution": "Paris School of Management (PSM)",
+        "location": "Paris",
+        "title":"Professor",
+        "img":"/oc/kathrin.jpeg"
+      }
+    ]
+}

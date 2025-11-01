@@ -2,13 +2,13 @@
     "ChiefPatron": [
         {
             "name": "Sh. M.K.M Shah",
-            "title": "Nominated by the Sponsoring Body",
+            "title": "Director General",
             "institution": "Poornima Group",
             "location": "Jaipur",
             "img":"/oc/MKM Shah.jpg"
           },
           {
-            "name": "Shri. Rahul Singhi",
+            "name": "Sh. Rahul Singhi",
             "title": "Director of Poornima Group",
             "institution": "Poornima Group",
             "location": "Jaipur",
@@ -76,7 +76,7 @@
         "img":"/oc/Manish Dubey.jpeg"
       },
       {
-        "name": "Mr. Shirish Mohan Duby",
+        "name": "Mr. Shirish Mohan Dubey",
         "institution": "PCE",
         "location": "Jaipur",
         "title":"Assistant Professor",
@@ -91,48 +91,7 @@
       }
     ],
     "TrackChair": [
-      {
-        "name": "Dr. Keshav Kaushik",
-        "institution": "Center for Cyber Security and Cryptology, Sharda School of Computer Science & Engineering, Sharda University",
-        "location": "Greater Noida, India",
-        "title": "Associate Professor",
-        "img":"/oc/Dr.Keshav Kaushik.jpg"
-      },
-      {
-        "name": "Dr. Savita Shiwani",
-        "institution": "Poornima University",
-        "location": "Jaipur",
-        "title": "HoD (Computer Application) & Professor",
-        "img":"/oc/Dr.Savita Shiwani.jpg"
-      },
-      {
-        "name": "Dr.Prashant Singh Rana",
-        "institution": "Computer Science & Engineering Dept, Thapar Institute of Engg, & Tech",
-        "location": "Patiala",
-        "title": "Associate Professor",
-        "img":"/oc/Dr.Prashant Rana.jpg"
-      },
-      {
-        "name": "Dr. Ankit Agarwal",
-        "institution": "Indian Institute of Technology, Madras",
-        "location": "Chennai",
-        "title": "Course Instructor at Indian Institute of Technology, Madras Co-Founder of Cloud-DF Solution",
-        "img":"/oc/Dr. Ankit Agarwal.jpg"
-      },
-      {
-        "name": "Dr.Aditya Dubey",
-        "institution": "Madhav Institute of Technology & Science",
-        "location": "Gwalior",
-        "title": "Assistant Professor",
-        "img":"/oc/Aditya Dubey.jpg"
-      },
-      {
-        "name": "Dr.Abhishek Thakur",
-        "institution": "Chitkara University",
-        "location": "Chandigarh",
-        "title": "Associate Professor",
-        "img":"/oc/Dr. Abishek Thakur.jpg"
-      },
+      
       {
         "name": "Dr. Veena Yadav",
         "institution": "PCE",
