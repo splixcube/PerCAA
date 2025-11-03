@@ -8,11 +8,50 @@
         "img":"/oc/sharat.png"
       },
       {
+        "name": "Dr. Narumol Chumuang",
+        "institution": "",
+        "location": "Ratchaburi, Thailand",
+        "title": "Faculty of Industrial Technology",
+        "img":"/oc/narumol.png"
+      },
+      {
         "name": "Dr. Nidhi Singhal",
         "institution": "",
         "location": "",
         "title": "Founder & CEO, Ameliorate Global Pvt. Ltd.",
         "img":"/oc/nidhi.jpg"
+      },
+      {
+        "name": "Dr. Kathrin Kind",
+        "institution": "Paris School of Management (PSM)",
+        "location": "Paris",
+        "title":"Professor",
+        "img":"/oc/kathrin.jpeg"
+      },
+      {
+        "name": "Dr. Anuj Kumar",
+        "institution": "Rushford Business School",
+        "location": "Switzerland",
+        "title":"Head of Research and Associate Professor",
+        "img":"/oc/anuj.jpg"
+      }
+      
+    ],
+    "SessionChair": [
+      {
+        "name": "Mr. Karthick Cherladine",
+        "institution": "Senior Solution Architect & Global Carrier Network Integration, MVNO Connect LLC",
+        "location": "United States",
+        "title":"",
+        "img":"/oc/karthick.jpg"
+      },
+      
+      {
+        "name": "Ms.Tanvir Rahman Akash",
+        "institution": "Researcher and IIBA member, Trine University",
+        "location": "United States",
+        "title":"",
+        "img":"/oc/tanvir.jpg"
       },
       {
         "name": "Dr. Keshav Kaushik",
@@ -55,43 +94,15 @@
         "location": "Chandigarh",
         "title":"Associate Professor",
         "img":"/oc/Dr. Abishek Thakur.jpg"
+      },
+      {
+      
+        "name": "Dr. Birendra Kr. Saraswat",
+        "institution": "GL Bajaj Institute of Technology & Management",
+        "location": " Greater Noida, India",
+        "title":"Associate Professor in the Department of Information Technology",
+        "img":"/oc/birendra_kumar.jpg"
       }
-    ],
-    "SessionChair": [
-      {
-        "name": "Mr. Karthick Cherladine",
-        "institution": "Senior Solution Architect & Global Carrier Network Integration, MVNO Connect LLC",
-        "location": "United States",
-        "title":"",
-        "img":"/oc/karthick.jpg"
-      },
-      {
-        "name": "Dr. Narumol Chumuang",
-        "institution": "",
-        "location": "Ratchaburi, Thailand",
-        "title": "Faculty of Industrial Technology",
-        "img":"/oc/Empty.jpg"
-      },
-      {
-        "name": "Ms.Tanvir Rahman Akash",
-        "institution": "Researcher and IIBA member, Trine University",
-        "location": "United States",
-        "title":"",
-        "img":"/oc/tanvir.jpg"
-      },
-      {
-        "name": "Dr. Anuj Kumar",
-        "institution": "Rushford Business School",
-        "location": "Switzerland",
-        "title":"Head of Research and Associate Professor",
-        "img":"/oc/anuj.jpg"
-      },
-      {
-        "name": "Dr. Kathrin Kind",
-        "institution": "Paris School of Management (PSM)",
-        "location": "Paris",
-        "title":"Professor",
-        "img":"/oc/kathrin.jpeg"
-      }
+      
     ]
 }
