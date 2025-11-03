@@ -13,6 +13,7 @@
 }
 
 .navbar {
+  user-select: none;
   background-color: rgb(22, 75, 150);
   overflow: hidden;
   width: 100vw;
@@ -30,7 +31,7 @@
 
 .navbar ul li a{
   display: block;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 1px 16px;
   text-decoration: none;
@@ -38,18 +39,23 @@
   /* border-radius: 550px; */
 }
 
+
 .navbar ul li a:hover {
   /* background-color: rgb(22, 75, 150); */
-  background-color: #ED3237;
+  background-color: #1a0987;
+  border-radius: 25px;
 }
 
 .navbar ul li ul {
   display: none;
   position: absolute;
-  background-color: #333;
+  background: linear-gradient(to right, #0042d09e, #0042d091);
   min-width: 160px;
   z-index: 1;
-  opacity: 90%;
+  opacity: 95%;
+  backdrop-filter: blur(100px);
+  border-radius: 10px;
+  
 }
 
 .navbar ul li ul li a {
